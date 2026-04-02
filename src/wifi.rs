@@ -62,61 +62,41 @@ pub fn draw(frame: &mut Frame<'_>, config: &Config) {
 /// Обработка ввода в меню WiFi
 pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
     match key {
-        // Выход в главное меню
-        KeyCode::Esc => Action::GoTo(Screen::MainMenu),
+            KeyCode::Esc => Action::GoTo(Screen::MainMenu),
 
-        // Навигация вверх/вниз по списку сетей
-        KeyCode::Up => {
-            if config.active_field > 0 {
-                config.active_field -= 1;
-            }
-            Action::Stay
-        }
-        KeyCode::Down => {
-            if config.active_field < AVAILABLE_NETWORKS.len() - 1 {
-                config.active_field += 1;
-            }
-            Action::Stay
-        }
+    KeyCode::Up => {
+        if config.active_field > 0 { config.active_field -= 1; }
+        Action::Stay
+    }
+    KeyCode::Down => {
+        if config.active_field < AVAILABLE_NETWORKS.len() - 1 { config.active_field += 1; }
+        Action::Stay
+    }
 
-        // Выбор сети по Enter
-        KeyCode::Enter => {
-            // Сохраняем выбранную сеть в конфиг
-            if let Some(ssid) = AVAILABLE_NETWORKS.get(config.active_field) {
-                config.wifi_ssid = Some(ssid.to_string());
-                // Можно сразу перейти к вводу пароля или вернуться в главное
-                // Пока просто остаёмся на экране
-            }
-            Action::Stay
+    KeyCode::Enter => {
+        if let Some(ssid) = AVAILABLE_NETWORKS.get(config.active_field) {
+            config.wifi_ssid = Some(ssid.to_string());
         }
+        Action::Stay
+    }
 
-        // Ввод пароля (простая реализация: любые символы идут в пароль)
-        // В реальном проекте тут нужно отдельное поле для ввода пароля
-        KeyCode::Char(c) => {
-            // Разрешаем вводить пароль только если сеть уже выбрана
-            if config.wifi_ssid.is_some() {
-                config.wifi_pass.push(c);
-            }
-            Action::Stay
-        }
+    // ← Сначала спец. символы:
+    KeyCode::Char('c') => {
+        if config.wifi_ssid.is_some() { config.wifi_pass.clear(); }
+        Action::Stay
+    }
 
-        // Удаление символов пароля
-        KeyCode::Backspace => {
-            if config.wifi_ssid.is_some() {
-                config.wifi_pass.pop();
-            }
-            Action::Stay
-        }
+    // ← Потом общий случай:
+    KeyCode::Char(c) => {
+        if config.wifi_ssid.is_some() { config.wifi_pass.push(c); }
+        Action::Stay
+    }
 
-        // Очистка пароля по 'C' (Ctrl+C не ловим, это выход из программы)
-        KeyCode::Char('c') => {
-            if config.wifi_ssid.is_some() {
-                config.wifi_pass.clear();
-            }
-            Action::Stay
-        }
+    KeyCode::Backspace => {
+        if config.wifi_ssid.is_some() { config.wifi_pass.pop(); }
+        Action::Stay
+    }
 
-        // Все остальные клавиши игнорируем
-        _ => Action::Stay,
+    _ => Action::Stay,
     }
 }

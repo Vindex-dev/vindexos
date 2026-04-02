@@ -6,6 +6,7 @@ mod wifi;
 use config::Config;
 use screen::{Screen, Action};
 use main_menu::{draw as draw_main, handle_input as handle_main_input};
+use wifi::{draw as draw_wifi, handle_input as handle_wifi_input};
 
 use crossterm::{
     event::{self, Event},
@@ -29,14 +30,7 @@ fn main() -> io::Result<()> {
         terminal.draw(|frame| {
             match current_screen {
                 Screen::MainMenu => draw_main(frame, &config),
-                Screen::WifiMenu => {
-                    use ratatui::widgets::{Block, Borders, Paragraph};
-                    use ratatui::layout::Alignment;
-                    let text = Paragraph::new("WiFi Menu (WIP)\nPress Esc to go back")
-                        .block(Block::default().title(" WiFi ").borders(Borders::ALL))
-                        .alignment(Alignment::Center);
-                    frame.render_widget(&text, frame.size());
-                }
+                Screen::WifiMenu => draw_wifi(frame, &config),
             }
         })?;
 
@@ -44,13 +38,7 @@ fn main() -> io::Result<()> {
             if let Event::Key(key) = event::read()? {
                 let action = match current_screen {
                     Screen::MainMenu => handle_main_input(key.code, &mut config),
-                    Screen::WifiMenu => {
-                        if key.code == crossterm::event::KeyCode::Esc {
-                            Action::GoTo(Screen::MainMenu)
-                        } else {
-                            Action::Stay
-                        }
-                    }
+                    Screen::WifiMenu => handle_wifi_input(key.code, &mut config),
                 };
 
                 match action {

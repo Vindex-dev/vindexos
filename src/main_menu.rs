@@ -1,4 +1,4 @@
-use crossterm::event::{Event, KeyCode};
+use crossterm::event::KeyCode;
 use ratatui::{
     layout::Alignment,
     widgets::{Block, Borders, Paragraph},
