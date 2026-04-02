@@ -10,6 +10,7 @@ pub struct Config {
     pub main_cursor: usize, // for main menu
     pub wifi_cursor: usize, // for wifi menu
     pub tz_cursor:   usize, // for timezones fzf menu
+    pub disk_cursor: usize,
 
     pub timezone: Option<String>,
 
@@ -32,6 +33,7 @@ impl Config {
             timezone: None,
             root_disk: None,
             home_disk: None,
+            disk_cursor: 0
 
         }
     }
