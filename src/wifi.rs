@@ -1,3 +1,5 @@
+// src/wifi.rs
+
 use crossterm::event::KeyCode;
 use ratatui::{
     layout::Alignment,
@@ -8,80 +10,93 @@ use ratatui::{
 use crate::config::Config;
 use crate::screen::{Action, Screen};
 
-const AVAILABLE_NETWORKS: &[&str] = &[
-    "Home_WiFi_5G",
-    "Cafe_Free_Access",
-    "Neighbor_Network",
-    "Hidden_Network",
-    "Guest_Network",
-];
+pub fn draw(frame: &mut Frame<'_>, config: &mut Config) {
+    // Ленивая загрузка сетей
+    if config.wifi_needs_refresh {
+        config.refresh_networks();
+        config.wifi_needs_refresh = false;
+    }
 
-pub fn draw(frame: &mut Frame<'_>, config: &Config) {
     let mut lines = Vec::new();
 
-    for (index, ssid) in AVAILABLE_NETWORKS.iter().enumerate() {
+    for (index, ssid) in config.wifi_networks.iter().enumerate() {
         let marker = if index == config.wifi_cursor { "> " } else { "  " };
-        let status = if config.wifi_ssid.as_deref() == Some(*ssid) { " [✓]" } else { "" };
-
+        let status = if config.wifi_ssid.as_deref() == Some(ssid.as_str()) { " [✓]" } else { "" };
         lines.push(format!("{}{}{}", marker, ssid, status));
     }
 
+    if config.wifi_networks.is_empty() {
+        lines.push("  (Scanning...)".to_string());
+    }
+
     lines.push(String::new());
-    lines.push(format!("Selected: {}",
-        config.wifi_ssid.as_deref().unwrap_or("none")));
-    lines.push(format!("Password: {}",
-        if config.wifi_pass.is_empty() { "[not set]" } else { "***" }));
+    lines.push(format!("Selected: {}", config.wifi_ssid.as_deref().unwrap_or("none")));
+    lines.push(format!("Password: {}", if config.wifi_pass.is_empty() { "[not set]" } else { "***" }));
     lines.push(String::new());
-    lines.push("Press: ↑↓ navigate | Enter select | Esc back".to_string());
+    lines.push("Press: ↑↓ navigate | Enter select | Esc back | R refresh".to_string());
 
     let display_text = lines.join("\n");
 
     let paragraph = Paragraph::new(display_text)
-        .block(
-            Block::default()
-                .title(" WiFi Networks ")
-                .borders(Borders::ALL)
-        )
+        .block(Block::default().title(" WiFi Networks ").borders(Borders::ALL))
         .alignment(Alignment::Left);
 
-    frame.render_widget(&paragraph, frame.size());
+    // ✅ ИСПРАВЛЕНО: size() вместо area()
+    frame.render_widget(paragraph, frame.size());
 }
 
 pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
     match key {
-            KeyCode::Esc => Action::GoTo(Screen::MainMenu),
+        KeyCode::Esc => Action::GoTo(Screen::MainMenu),
 
-    KeyCode::Up => {
-        if config.wifi_cursor > 0 { config.wifi_cursor -= 1; }
-        Action::Stay
-    }
-    KeyCode::Down => {
-        if config.wifi_cursor < AVAILABLE_NETWORKS.len() - 1 { config.wifi_cursor += 1; }
-        Action::Stay
-    }
-
-    KeyCode::Enter => {
-        if let Some(ssid) = AVAILABLE_NETWORKS.get(config.wifi_cursor) {
-            config.wifi_ssid = Some(ssid.to_string());
+        KeyCode::Char('r') | KeyCode::Char('R') => {
+            config.wifi_needs_refresh = true;
+            Action::Stay
         }
-        Action::Stay
-    }
 
-    KeyCode::Char('c') => {
-        if config.wifi_ssid.is_some() { config.wifi_pass.clear(); }
-        Action::Stay
-    }
+        KeyCode::Up => {
+            if config.wifi_cursor > 0 {
+                config.wifi_cursor -= 1;
+            }
+            Action::Stay
+        }
 
-    KeyCode::Char(c) => {
-        if config.wifi_ssid.is_some() { config.wifi_pass.push(c); }
-        Action::Stay
-    }
+        KeyCode::Down => {
+            // ✅ Безопасная проверка: saturating_sub или явная проверка
+            if config.wifi_cursor + 1 < config.wifi_networks.len() {
+                config.wifi_cursor += 1;
+            }
+            Action::Stay
+        }
 
-    KeyCode::Backspace => {
-        if config.wifi_ssid.is_some() { config.wifi_pass.pop(); }
-        Action::Stay
-    }
+        KeyCode::Enter => {
+            if let Some(ssid) = config.wifi_networks.get(config.wifi_cursor) {
+                config.wifi_ssid = Some(ssid.clone());
+            }
+            Action::Stay
+        }
 
-    _ => Action::Stay,
+        KeyCode::Char('c') => {
+            if config.wifi_ssid.is_some() {
+                config.wifi_pass.clear();
+            }
+            Action::Stay
+        }
+
+        KeyCode::Char(c) => {
+            if config.wifi_ssid.is_some() {
+                config.wifi_pass.push(c);
+            }
+            Action::Stay
+        }
+
+        KeyCode::Backspace => {
+            if config.wifi_ssid.is_some() {
+                config.wifi_pass.pop();
+            }
+            Action::Stay
+        }
+
+        _ => Action::Stay,
     }
 }

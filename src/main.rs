@@ -30,7 +30,7 @@ fn main() -> io::Result<()> {
         terminal.draw(|frame| {
             match current_screen {
                 Screen::MainMenu => draw_main(frame, &config),
-                Screen::WifiMenu => draw_wifi(frame, &config),
+                Screen::WifiMenu => draw_wifi(frame, &mut config),
             }
         })?;
 
