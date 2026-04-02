@@ -3,12 +3,14 @@ mod screen;
 mod main_menu;
 mod wifi;
 mod timezones;
+mod disk_menu;
 
 use config::Config;
 use screen::{Screen, Action};
 use main_menu::{draw as draw_main, handle_input as handle_main_input};
 use wifi::{draw as draw_wifi, handle_input as handle_wifi_input};
 use timezones::{draw as draw_tz, handle_input as handle_tz_input};
+use disk_menu::{draw as draw_disk, handle_input as handle_disk_input};
 
 use crossterm::{
     event::{self, Event},
@@ -34,6 +36,7 @@ fn main() -> io::Result<()> {
                 Screen::MainMenu => draw_main(frame, &config),
                 Screen::WifiMenu => draw_wifi(frame, &config),
                 Screen::TimezoneMenu => draw_tz(frame, &config),
+                Screen::DiskMenu => draw_disk(frame, &config),
             }
         })?;
 
@@ -43,6 +46,7 @@ fn main() -> io::Result<()> {
                     Screen::MainMenu => handle_main_input(key.code, &mut config),
                     Screen::WifiMenu => handle_wifi_input(key.code, &mut config),
                     Screen::TimezoneMenu => handle_tz_input(key.code, &mut config),
+                    Screen::DiskMenu => handle_disk_input(key.code, &mut config),
                 };
 
                 match action {

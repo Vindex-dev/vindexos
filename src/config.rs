@@ -12,6 +12,9 @@ pub struct Config {
     pub tz_cursor:   usize, // for timezones fzf menu
 
     pub timezone: Option<String>,
+
+    pub root_disk: Option<String>,
+    pub home_disk: Option<String>,
 }
 
 impl Config {
@@ -27,6 +30,8 @@ impl Config {
             wifi_cursor: 0,
             tz_cursor: 0,
             timezone: None,
+            root_disk: None,
+            home_disk: None,
 
         }
     }

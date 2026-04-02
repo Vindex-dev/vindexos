@@ -3,7 +3,7 @@ pub enum Screen {
     MainMenu,
     WifiMenu,
     TimezoneMenu,
-    // DiskMenu,
+    DiskMenu,
 }
 
 pub enum Action {
