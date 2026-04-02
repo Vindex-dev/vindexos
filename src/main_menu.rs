@@ -10,18 +10,19 @@ use crate::screen::{Action, Screen};
 
 pub fn draw(frame: &mut Frame<'_>, config: &Config) {
     let display = format!(
-        "{}Username: {}\n {}Hostname: {}\n {}Password: {}\n {}Confirm({}): {}",
+        "{}Username: {}\n{}Hostname: {}\n{}Password: {}\n{}Confirm your password{}: {}\n{}WiFi\n{}Timezone",
         marker(config.main_cursor == 0), &config.username,
         marker(config.main_cursor == 1), &config.hostname,
         marker(config.main_cursor == 2), &"*".repeat(config.password.len()),
         marker(config.main_cursor == 3),
-        if config.password == config.password_conf { "OK" } else { "MISMATCH" },
-        &config.password_conf
+        if config.password == config.password_conf { "" } else { "(MISMATCH)" },
+        &"*".repeat(config.password_conf.len()), marker(config.main_cursor == 4),
+        marker(config.main_cursor == 5),
     );
 
     let paragraph = Paragraph::new(display)
         .block(Block::default().title(" Setup ").borders(Borders::ALL))
-        .alignment(Alignment::Center);
+        .alignment(Alignment::Left);
 
     frame.render_widget(&paragraph, frame.size());
 }
@@ -31,7 +32,7 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
         KeyCode::Esc => Action::Exit,
 
         KeyCode::Down => {
-            if config.main_cursor < 3 {
+            if config.main_cursor < 5 {
                 config.main_cursor += 1;
             } else {
                 config.main_cursor = 0;
@@ -42,7 +43,7 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
             if config.main_cursor > 0 {
                 config.main_cursor -= 1;
             } else {
-                config.main_cursor = 3;
+                config.main_cursor = 5;
             }
             Action::Stay
         }
@@ -70,14 +71,14 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
         }
 
         KeyCode::Enter => {
-            if config.main_cursor == 1 {
-                Action::GoTo(Screen::WifiMenu)
-            } else {
-                Action::Stay
-            }
+           return match config.main_cursor {
+                4 => Action::GoTo(Screen::WifiMenu),
+                5 => Action::GoTo(Screen::TimezoneMenu),
+                _ => Action::Stay,
+            };
         }
+            _ => Action::Stay
 
-        _ => Action::Stay,
     }
 }
 

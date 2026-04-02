@@ -9,7 +9,9 @@ pub struct Config {
 
     pub main_cursor: usize, // for main menu
     pub wifi_cursor: usize, // for wifi menu
-    pub is_valid: bool,
+    pub tz_cursor:   usize, // for timezones fzf menu
+
+    pub timezone: Option<String>,
 }
 
 impl Config {
@@ -23,7 +25,9 @@ impl Config {
             wifi_pass: String::new(),
             main_cursor: 0,
             wifi_cursor: 0,
-            is_valid: true,
+            tz_cursor: 0,
+            timezone: None,
+
         }
     }
 }
