@@ -72,6 +72,6 @@ fn main() -> io::Result<()> {
     stdout().execute(LeaveAlternateScreen)?;
     disable_raw_mode()?;
 
-    println!("\n✅ Готово! Введённое имя: {}", username);
+    println!("\n username : {}\n hostname : {}", username, hostname);
     Ok(())
 }
