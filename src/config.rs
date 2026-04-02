@@ -13,6 +13,13 @@ pub struct Config {
 
     pub wifi_networks: Vec<String>,      // Кэш списка сетей
     pub wifi_needs_refresh: bool,        // Флаг: нужно ли обновить список
+    pub tz_cursor:   usize, // for timezones fzf menu
+    pub disk_cursor: usize,
+
+    pub timezone: Option<String>,
+
+    pub root_disk: Option<String>,
+    pub home_disk: Option<String>,
 }
 
 impl Config {
@@ -54,6 +61,12 @@ impl Config {
         // Корректировка курсора если список стал короче
         if !self.wifi_networks.is_empty() && self.wifi_cursor >= self.wifi_networks.len() {
             self.wifi_cursor = self.wifi_networks.len().saturating_sub(1);
+            tz_cursor: 0,
+            timezone: None,
+            root_disk: None,
+            home_disk: None,
+            disk_cursor: 0
+
         }
     }
 }
