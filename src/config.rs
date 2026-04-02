@@ -9,6 +9,10 @@ pub struct Config {
 
     pub main_cursor: usize, // for main menu
     pub wifi_cursor: usize, // for wifi menu
+    pub is_valid: bool,
+
+    pub wifi_networks: Vec<String>,      // Кэш списка сетей
+    pub wifi_needs_refresh: bool,        // Флаг: нужно ли обновить список
     pub tz_cursor:   usize, // for timezones fzf menu
     pub disk_cursor: usize,
 
@@ -29,6 +33,34 @@ impl Config {
             wifi_pass: String::new(),
             main_cursor: 0,
             wifi_cursor: 0,
+            is_valid: true,
+            wifi_networks: Vec::new(),
+            wifi_needs_refresh: true,
+        }
+    }
+    pub fn refresh_networks(&mut self) {
+        use std::process::Command;
+
+        let output = match Command::new("iwctl")
+            .args(["station", "wlan0", "get-networks"])
+            .output() {
+                Ok(out) => out,
+                Err(_) => return,
+            };
+
+        let stdout = String::from_utf8_lossy(&output.stdout);
+
+        self.wifi_networks = stdout
+            .lines()
+            .skip(5)
+            .filter_map(|line| line.split_whitespace().next())
+            .filter(|ssid| *ssid != "SSID" && !ssid.is_empty())
+            .map(|s| s.to_string())
+            .collect();
+
+        // Корректировка курсора если список стал короче
+        if !self.wifi_networks.is_empty() && self.wifi_cursor >= self.wifi_networks.len() {
+            self.wifi_cursor = self.wifi_networks.len().saturating_sub(1);
             tz_cursor: 0,
             timezone: None,
             root_disk: None,

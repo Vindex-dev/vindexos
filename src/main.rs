@@ -33,8 +33,8 @@ fn main() -> io::Result<()> {
     while running {
         terminal.draw(|frame| {
             match current_screen {
-                Screen::MainMenu => draw_main(frame, &config),
-                Screen::WifiMenu => draw_wifi(frame, &config),
+                Screen::MainMenu => draw_main(frame, &mut config),
+                Screen::WifiMenu => draw_wifi(frame, &mut config),
                 Screen::TimezoneMenu => draw_tz(frame, &config),
                 Screen::DiskMenu => draw_disk(frame, &config),
             }
