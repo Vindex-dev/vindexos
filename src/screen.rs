@@ -1,16 +1,12 @@
-// src/screen.rs
-
-/// На каком экране сейчас находится пользователь
 #[derive(Clone, Copy, PartialEq)]
 pub enum Screen {
-    MainMenu,   // Твоё меню с юзернеймом/паролем
-    WifiMenu,   // Меню друга с выбором сети
-    // DiskMenu, // Будущее меню разметки диска
+    MainMenu,
+    WifiMenu,
+    // DiskMenu,
 }
 
-/// Что произошло после обработки ввода (результат работы экрана)
 pub enum Action {
-    Stay,           // Остаться на текущем экране
-    GoTo(Screen),   // Перейти на другой экран
-    Exit,           // Выйти из программы
+    Stay,
+    GoTo(Screen),
+    Exit,
 }

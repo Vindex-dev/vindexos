@@ -4,11 +4,12 @@ pub struct Config {
     pub password: String,
     pub password_conf: String,
 
-    pub wifi_ssid: Option<String>,  // None = не выбран, Some("Name") = выбран
+    pub wifi_ssid: Option<String>,
     pub wifi_pass: String,
 
-    pub active_field: usize,  // Какое поле сейчас активно (0, 1, 2...)
-    pub is_valid: bool,       // Валидны ли данные (например, пароли совпадают)
+    pub main_cursor: usize, // for main menu
+    pub wifi_cursor: usize, // for wifi menu
+    pub is_valid: bool,
 }
 
 impl Config {
@@ -20,7 +21,8 @@ impl Config {
             password_conf: String::new(),
             wifi_ssid: None,
             wifi_pass: String::new(),
-            active_field: 0,
+            main_cursor: 0,
+            wifi_cursor: 0,
             is_valid: true,
         }
     }

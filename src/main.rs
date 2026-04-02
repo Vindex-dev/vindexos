@@ -43,7 +43,9 @@ fn main() -> io::Result<()> {
 
                 match action {
                     Action::Stay => {}
-                    Action::GoTo(screen) => current_screen = screen,
+                    Action::GoTo(screen) => {
+                        current_screen = screen;
+                    }
                     Action::Exit => running = false,
                 }
             }
