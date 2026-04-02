@@ -22,6 +22,8 @@ fn main() -> io::Result<()> {
     let mut password = String::new();
     let mut password_conf = String::new();
 
+    let mut is_valid: bool = true;
+
     let mut running = true;
     let mut af = 0;
     // af - active field
@@ -33,9 +35,11 @@ fn main() -> io::Result<()> {
 
     while running {
         terminal.draw(|frame: &mut Frame<'_>| {
-            let display_text = format!("{}Username: {}\n {}Hostname: {}\n {}Password: {}\n {}Confirm your password: {}",
+            let display_text = format!("{}Username: {}\n {}Hostname: {}\n {}Password: {}\n {}Confirm your password({}): {}",
                 (if af == 0 {">"} else {" "}),username, (if af == 1 {">"} else {" "}),hostname,
-                (if af == 2 {">"} else {" "}),("*".repeat(password.len())), (if af == 3 {">"} else {" "}), password_conf);
+                (if af == 2 {">"} else {" "}),("*".repeat(password.len())), (if af == 3 {">"} else {" "}), (
+                    if password == password_conf {is_valid = true; ""} else { is_valid = false; "Passwords must match"}
+                ),password_conf);
 
             let paragraph = Paragraph::new(display_text)
                 .block(Block::default().title(" Setup ").borders(Borders::ALL))
@@ -43,7 +47,6 @@ fn main() -> io::Result<()> {
 
             frame.render_widget(&paragraph, frame.size());
         })?;
-
         if event::poll(std::time::Duration::from_millis(5))? {
             if let Event::Key(key) = event::read()? {
                 match key.code {
@@ -85,6 +88,8 @@ fn main() -> io::Result<()> {
             }
         }
     }
+
+
 
     stdout().execute(LeaveAlternateScreen)?;
     disable_raw_mode()?;
