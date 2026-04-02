@@ -36,6 +36,11 @@ impl Config {
             is_valid: true,
             wifi_networks: Vec::new(),
             wifi_needs_refresh: true,
+            tz_cursor: 0,
+            disk_cursor: 0,
+            timezone: None,
+            root_disk: None,
+            home_disk: None,
         }
     }
     pub fn refresh_networks(&mut self) {
@@ -58,15 +63,8 @@ impl Config {
             .map(|s| s.to_string())
             .collect();
 
-        // Корректировка курсора если список стал короче
         if !self.wifi_networks.is_empty() && self.wifi_cursor >= self.wifi_networks.len() {
             self.wifi_cursor = self.wifi_networks.len().saturating_sub(1);
-            tz_cursor: 0,
-            timezone: None,
-            root_disk: None,
-            home_disk: None,
-            disk_cursor: 0
-
         }
     }
 }
