@@ -1,8 +1,6 @@
 use crossterm::event::KeyCode;
 use ratatui::{
-    layout::Alignment,
-    widgets::{Block, Borders, Paragraph},
-    Frame,
+    Frame, layout::Alignment, style::palette::material::NonAccentedPalette, widgets::{Block, Borders, Paragraph}
 };
 
 use crate::config::Config;
@@ -77,7 +75,12 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
                 4 => Action::GoTo(Screen::WifiMenu),
                 5 => Action::GoTo(Screen::TimezoneMenu),
                 6 => Action::GoTo(Screen::DiskMenu),
-                7 => Action::Install,
+                7 => {
+                    if config.password == config.password_conf && config.root_disk != None && config.username != ""
+                    && config.hostname != "" && config.timezone != None{
+                        Action::Install
+                    } else { Action::Stay }
+                },
                 _ => Action::Stay,
             };
         }

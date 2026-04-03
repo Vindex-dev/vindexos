@@ -1,0 +1,11 @@
+{
+  "username": "",
+  "hostname": "",
+  "password": "123",
+  "password_conf": "123",
+  "wifi_ssid": null,
+  "wifi_pass": "",
+  "timezone": null,
+  "root_disk": "sdb",
+  "home_disk": null
+}

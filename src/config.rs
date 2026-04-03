@@ -17,6 +17,7 @@ pub struct Config {
     #[serde(skip)] pub wifi_networks: Vec<String>,
     #[serde(skip)] pub wifi_needs_refresh: bool,
     #[serde(skip)] pub tz_cursor: usize,
+    #[serde(skip)] pub tz_query: String,
     #[serde(skip)] pub disk_cursor: usize,
 
     pub timezone: Option<String>,
@@ -40,6 +41,7 @@ impl Config {
             wifi_networks: Vec::new(),
             wifi_needs_refresh: true,
             tz_cursor: 0,
+            tz_query: String::new(),
             disk_cursor: 0,
             timezone: None,
             root_disk: None,
