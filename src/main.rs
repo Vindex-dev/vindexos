@@ -69,10 +69,5 @@ fn main() -> io::Result<()> {
     stdout().execute(LeaveAlternateScreen)?;
     disable_raw_mode()?;
 
-    println!("\n=== Config ===");
-    println!("Username: {}", config.username);
-    println!("Hostname: {}", config.hostname);
-    println!("WiFi: {:?}", config.wifi_ssid);
-
     Ok(())
 }
