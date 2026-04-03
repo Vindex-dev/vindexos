@@ -21,6 +21,8 @@ git clone git@github.com:Vindex-dev/vindexos.git; cd vindexos
 cargo build --release #or cargo run
 ./target/release/vindexos #if cargo run then no need for this
 ```
+<img width="723" height="469" alt="image" src="https://github.com/user-attachments/assets/7e0d0bc7-e3f2-41ba-9d86-af0a8722f3dd" />
+<img width="723" height="469" alt="image" src="https://github.com/user-attachments/assets/0b8ce4f8-2b73-4c21-b26e-b11c95758248" />
 
 
 ## Config output
