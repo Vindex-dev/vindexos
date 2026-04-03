@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 import subprocess
 import sys
@@ -26,7 +27,7 @@ HOSTNAME   = cfg["hostname"]
 TIMEZONE   = cfg["timezone"]
 LOCALE     = cfg["locale"]
 LOCALE2    = cfg.get("locale2")
-ROOT_DISK  = cfg["root_disk"]   # e.g. "nvme0n1" or "sda"
+ROOT_DISK  = cfg["root_disk"]
 HOME_DISK  = cfg.get("home_disk")
 WIFI_SSID  = cfg.get("wifi_ssid")
 WIFI_PASS  = cfg.get("wifi_pass", "")
@@ -46,6 +47,15 @@ def detect_ucode():
     except:
         pass
     return None
+
+def detect_firmware():
+    try:
+        vendor = open("/sys/class/dmi/id/sys_vendor").read().strip().lower()
+        if any(v in vendor for v in ["virtualbox", "qemu", "vmware", "innotek"]):
+            return ""
+    except:
+        pass
+    return "linux-firmware"
 
 progress(5, "Checking internet connection...")
 try:
@@ -77,8 +87,9 @@ if HOME_DISK and HOME_DISK != ROOT_DISK:
 
 ucode = detect_ucode()
 ucode_pkg = ucode if ucode else ""
+firmware = detect_firmware()
 progress(30, "Installing base system (this may take a while)...")
-run(f"pacstrap -K {MOUNT} base linux-zen linux-zen-headers linux-firmware "
+run(f"pacstrap -K {MOUNT} base linux-zen linux-zen-headers {firmware} "
     f"{ucode_pkg} base-devel git vim networkmanager sudo")
 
 progress(55, "Generating fstab...")
@@ -89,7 +100,7 @@ chroot(f"ln -sf /usr/share/zoneinfo/{TIMEZONE} /etc/localtime")
 chroot("hwclock --systohc")
 
 progress(65, "Configuring locale...")
-locale_line = LOCALE.split()[0]  # e.g. "en_US.UTF-8"
+locale_line = LOCALE.split()[0]
 run(f"sed -i 's/^#{locale_line}/{locale_line}/' {MOUNT}/etc/locale.gen")
 if LOCALE2:
     locale2_line = LOCALE2.split()[0]

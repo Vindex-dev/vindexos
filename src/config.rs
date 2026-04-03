@@ -12,7 +12,6 @@ pub struct Config {
 
     #[serde(skip)] pub main_cursor: usize,
     #[serde(skip)] pub wifi_cursor: usize,
-    #[serde(skip)] pub is_valid: bool,
 
     #[serde(skip)] pub wifi_networks: Vec<String>,
     #[serde(skip)] pub wifi_needs_refresh: bool,
@@ -43,7 +42,6 @@ impl Config {
             wifi_pass: String::new(),
             main_cursor: 0,
             wifi_cursor: 0,
-            is_valid: true,
             wifi_networks: Vec::new(),
             wifi_needs_refresh: true,
             tz_cursor: 0,

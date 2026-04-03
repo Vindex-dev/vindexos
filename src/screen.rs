@@ -5,6 +5,7 @@ pub enum Screen {
     TimezoneMenu,
     DiskMenu,
     KeyboardMenu,
+    Installing,
 }
 
 pub enum Action {

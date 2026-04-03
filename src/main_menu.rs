@@ -1,6 +1,6 @@
 use crossterm::event::KeyCode;
 use ratatui::{
-    Frame, layout::Alignment, style::palette::material::NonAccentedPalette, widgets::{Block, Borders, Paragraph}
+    Frame, layout::Alignment, widgets::{Block, Borders, Paragraph}
 };
 
 use crate::config::Config;

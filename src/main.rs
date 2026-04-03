@@ -5,6 +5,7 @@ mod wifi;
 mod timezones;
 mod disk_menu;
 mod keyboard;
+mod installing;
 
 use config::Config;
 use screen::{Screen, Action};
@@ -14,6 +15,7 @@ use wifi::{draw as draw_wifi, handle_input as handle_wifi_input};
 use timezones::{draw as draw_tz, handle_input as handle_tz_input};
 use disk_menu::{draw as draw_disk, handle_input as handle_disk_input};
 use keyboard::{draw as draw_kb, handle_input as handle_kb_input};
+use installing::{draw as draw_install, handle_input as handle_install_input, InstallState};
 
 use crossterm::{
     event::{self, Event},
@@ -30,10 +32,15 @@ fn main() -> io::Result<()> {
     let mut terminal = Terminal::new(backend)?;
 
     let mut config = Config::new();
+    let mut install_state = InstallState::new();
     let mut current_screen = Screen::MainMenu;
     let mut running = true;
 
     while running {
+        if current_screen == Screen::Installing {
+            install_state.update();
+        }
+
         terminal.draw(|frame| {
             match current_screen {
                 Screen::MainMenu => draw_main(frame, &mut config),
@@ -41,6 +48,7 @@ fn main() -> io::Result<()> {
                 Screen::TimezoneMenu => draw_tz(frame, &config),
                 Screen::DiskMenu => draw_disk(frame, &config),
                 Screen::KeyboardMenu => draw_kb(frame, &config),
+                Screen::Installing => draw_install(frame, &install_state),
             }
         })?;
 
@@ -52,6 +60,7 @@ fn main() -> io::Result<()> {
                     Screen::TimezoneMenu => handle_tz_input(key.code, &mut config),
                     Screen::DiskMenu => handle_disk_input(key.code, &mut config),
                     Screen::KeyboardMenu => handle_kb_input(key.code, &mut config),
+                    Screen::Installing => handle_install_input(key.code, &install_state),
                 };
 
                 match action {
@@ -63,7 +72,8 @@ fn main() -> io::Result<()> {
                     Action::Install => {
                         let json = serde_json::to_string_pretty(&config).unwrap();
                         std::fs::write("install_config.json", &json).unwrap();
-                        running = false;
+                        install_state.start();
+                        current_screen = Screen::Installing;
                     }
                 }
             }

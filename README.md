@@ -1,42 +1,55 @@
 # VindexOS
 
-TUI installer(currently just an installer) for Arch Linux, written in Rust.
+TUI installer for Arch Linux, written in Rust.
 
-## TODO frontend:
-- [x] Username
-- [x] Hostname
-- [x] WiFi setup
-- [ ] Timezone select
-- [ ] Rice select
-- [x] Disk partitioning
-- [x] Save to json
+## Features
 
-## TODO backend:
-we'll finish front first
+- Interactive TUI with fuzzy search for timezone and locale selection
+- WiFi configuration during installation
+- Disk partitioning with separate root and home support
+- systemd-boot bootloader
+- Real-time installation progress with logs
+- Automatic CPU microcode detection (Intel/AMD)
+- Virtual machine detection (skips firmware in VMs)
 
-## Usage
+## Installation
+
+Download and run in Arch Linux live environment:
 
 ```bash
-git clone git@github.com:Vindex-dev/vindexos.git; cd vindexos
-cargo build --release #or cargo run
-./target/release/vindexos #if cargo run then no need for this
+curl -L https://github.com/Vindex-dev/vindexos/releases/latest/download/vindexos-release.tar.gz | tar -xz
+sudo ./VindexOS
 ```
-<img width="723" height="469" alt="image" src="https://github.com/user-attachments/assets/7e0d0bc7-e3f2-41ba-9d86-af0a8722f3dd" />
-<img width="723" height="469" alt="image" src="https://github.com/user-attachments/assets/0b8ce4f8-2b73-4c21-b26e-b11c95758248" />
 
+## Configuration
 
-## Config output
+The installer will guide you through:
+- Username and password
+- Hostname
+- WiFi network (optional)
+- Timezone (fuzzy search)
+- Locale (primary and optional secondary)
+- Disk partitioning (root and optional separate home)
 
-```json
-{
-  "username": "A.H.",
-  "hostname": "komputr",
-  "password": "516", //iykyk
-  "password_confirm": "516",
-  "wifi_ssid": "wifi soseda",
-  "timezone": "Europe/Moscow",
-  "root_disk": "nvme0n1",
-  "home_disk": "sda"
-}
+After configuration, the installation runs automatically with real-time progress.
+
+## Development
+
+Build from source:
+
+```bash
+git clone https://github.com/Vindex-dev/vindexos.git
+cd vindexos
+cargo build --release
 ```
+
+## Requirements
+
+- UEFI system
+- Internet connection
+- Python 3 (for installation script)
+
+## License
+
+MIT
 
