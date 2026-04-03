@@ -24,6 +24,12 @@ pub struct Config {
 
     pub root_disk: Option<String>,
     pub home_disk: Option<String>,
+
+    pub locale: Option<String>,
+    pub locale2: Option<String>,
+    #[serde(skip)] pub kb_query: String,
+    #[serde(skip)] pub kb_cursor: usize,
+    #[serde(skip)] pub kb_picking_second: bool,
 }
 
 impl Config {
@@ -46,6 +52,11 @@ impl Config {
             timezone: None,
             root_disk: None,
             home_disk: None,
+            locale: None,
+            locale2: None,
+            kb_query: String::new(),
+            kb_cursor: 0,
+            kb_picking_second: false,
         }
     }
     pub fn refresh_networks(&mut self) {

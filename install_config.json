@@ -1,11 +1,13 @@
 {
-  "username": "",
-  "hostname": "",
+  "username": "123",
+  "hostname": "123",
   "password": "123",
   "password_conf": "123",
   "wifi_ssid": null,
   "wifi_pass": "",
-  "timezone": null,
+  "timezone": "Europe/Moscow",
   "root_disk": "sdb",
-  "home_disk": null
+  "home_disk": null,
+  "locale": "en_AU.UTF-8 UTF-8",
+  "locale2": "ru_RU.KOI8-R KOI8-R"
 }

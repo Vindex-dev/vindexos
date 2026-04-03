@@ -4,6 +4,7 @@ pub enum Screen {
     WifiMenu,
     TimezoneMenu,
     DiskMenu,
+    KeyboardMenu,
 }
 
 pub enum Action {
