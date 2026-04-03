@@ -1,3 +1,6 @@
+use serde::Serialize;
+
+#[derive(Serialize)]
 pub struct Config {
     pub username: String,
     pub hostname: String,
@@ -7,14 +10,14 @@ pub struct Config {
     pub wifi_ssid: Option<String>,
     pub wifi_pass: String,
 
-    pub main_cursor: usize, // for main menu
-    pub wifi_cursor: usize, // for wifi menu
-    pub is_valid: bool,
+    #[serde(skip)] pub main_cursor: usize,
+    #[serde(skip)] pub wifi_cursor: usize,
+    #[serde(skip)] pub is_valid: bool,
 
-    pub wifi_networks: Vec<String>,      // Кэш списка сетей
-    pub wifi_needs_refresh: bool,        // Флаг: нужно ли обновить список
-    pub tz_cursor:   usize, // for timezones fzf menu
-    pub disk_cursor: usize,
+    #[serde(skip)] pub wifi_networks: Vec<String>,
+    #[serde(skip)] pub wifi_needs_refresh: bool,
+    #[serde(skip)] pub tz_cursor: usize,
+    #[serde(skip)] pub disk_cursor: usize,
 
     pub timezone: Option<String>,
 

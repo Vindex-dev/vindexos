@@ -10,4 +10,5 @@ pub enum Action {
     Stay,
     GoTo(Screen),
     Exit,
+    Install,
 }

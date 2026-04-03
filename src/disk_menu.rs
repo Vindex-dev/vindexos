@@ -1,7 +1,6 @@
 use crossterm::event::KeyCode;
 use ratatui::{
     layout::{Alignment, Constraint, Direction, Layout},
-    style::{Color, Modifier, Style},
     widgets::{Block, Borders, List, ListItem, Paragraph},
     Frame,
 };
@@ -83,16 +82,14 @@ pub fn draw(frame: &mut Frame<'_>, config: &Config) {
         if config.root_disk.as_deref() == Some(name) { status.push_str(" [ROOT]"); }
         if config.home_disk.as_deref() == Some(name) { status.push_str(" [HOME]"); }
 
-        ListItem::new(format!("{}{}", line, status))
+        ListItem::new(format!("{}{}{}", marker(config.disk_cursor == i), line, status))
     }).collect();
 
     let list = List::new(list_items)
         .block(Block::default().title(match mode {
             DiskMode::SelectRoot => " Select ROOT (/) ",
             DiskMode::SelectHome => " Select HOME (/home) ",
-        }).borders(Borders::ALL))
-        .highlight_style(Style::default().bg(Color::Cyan).add_modifier(Modifier::BOLD))
-        .highlight_symbol(">> ");
+        }).borders(Borders::ALL));
 
     let chunks = Layout::default()
         .direction(Direction::Vertical)
@@ -158,4 +155,8 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
 
         _ => Action::Stay,
     }
+}
+
+fn marker(is_active: bool) -> &'static str {
+    if is_active { "> " } else { "  " }
 }

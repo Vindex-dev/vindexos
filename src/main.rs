@@ -7,6 +7,7 @@ mod disk_menu;
 
 use config::Config;
 use screen::{Screen, Action};
+use serde_json;
 use main_menu::{draw as draw_main, handle_input as handle_main_input};
 use wifi::{draw as draw_wifi, handle_input as handle_wifi_input};
 use timezones::{draw as draw_tz, handle_input as handle_tz_input};
@@ -55,6 +56,11 @@ fn main() -> io::Result<()> {
                         current_screen = screen;
                     }
                     Action::Exit => running = false,
+                    Action::Install => {
+                        let json = serde_json::to_string_pretty(&config).unwrap();
+                        std::fs::write("install_config.json", &json).unwrap();
+                        running = false;
+                    }
                 }
             }
         }

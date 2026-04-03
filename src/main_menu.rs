@@ -10,7 +10,7 @@ use crate::screen::{Action, Screen};
 
 pub fn draw(frame: &mut Frame<'_>, config: &Config) {
     let display = format!(
-        "{}Username: {}\n{}Hostname: {}\n{}Password: {}\n{}Confirm your password{}: {}\n{}WiFi\n{}Timezone\n{}Disk partitioning",
+        "{}Username: {}\n{}Hostname: {}\n{}Password: {}\n{}Confirm your password{}: {}\n{}WiFi\n{}Timezone\n{}Disk partitioning\n{}Install",
         marker(config.main_cursor == 0), &config.username,
         marker(config.main_cursor == 1), &config.hostname,
         marker(config.main_cursor == 2), &"*".repeat(config.password.len()),
@@ -19,6 +19,7 @@ pub fn draw(frame: &mut Frame<'_>, config: &Config) {
         &"*".repeat(config.password_conf.len()), marker(config.main_cursor == 4),
         marker(config.main_cursor == 5),
         marker(config.main_cursor == 6),
+        marker(config.main_cursor == 7),
     );
 
     let paragraph = Paragraph::new(display)
@@ -33,7 +34,7 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
         KeyCode::Esc => Action::Exit,
 
         KeyCode::Down => {
-            if config.main_cursor < 6 {
+            if config.main_cursor < 7 {
                 config.main_cursor += 1;
             } else {
                 config.main_cursor = 0;
@@ -44,7 +45,7 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
             if config.main_cursor > 0 {
                 config.main_cursor -= 1;
             } else {
-                config.main_cursor = 6;
+                config.main_cursor = 7;
             }
             Action::Stay
         }
@@ -76,6 +77,7 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
                 4 => Action::GoTo(Screen::WifiMenu),
                 5 => Action::GoTo(Screen::TimezoneMenu),
                 6 => Action::GoTo(Screen::DiskMenu),
+                7 => Action::Install,
                 _ => Action::Stay,
             };
         }

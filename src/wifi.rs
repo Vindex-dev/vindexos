@@ -1,5 +1,3 @@
-// src/wifi.rs
-
 use crossterm::event::KeyCode;
 use ratatui::{
     layout::Alignment,
@@ -11,7 +9,6 @@ use crate::config::Config;
 use crate::screen::{Action, Screen};
 
 pub fn draw(frame: &mut Frame<'_>, config: &mut Config) {
-    // Ленивая загрузка сетей
     if config.wifi_needs_refresh {
         config.refresh_networks();
         config.wifi_needs_refresh = false;
@@ -41,7 +38,6 @@ pub fn draw(frame: &mut Frame<'_>, config: &mut Config) {
         .block(Block::default().title(" WiFi Networks ").borders(Borders::ALL))
         .alignment(Alignment::Left);
 
-    // ✅ ИСПРАВЛЕНО: size() вместо area()
     frame.render_widget(paragraph, frame.size());
 }
 
@@ -62,7 +58,6 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
         }
 
         KeyCode::Down => {
-            // ✅ Безопасная проверка: saturating_sub или явная проверка
             if config.wifi_cursor + 1 < config.wifi_networks.len() {
                 config.wifi_cursor += 1;
             }
