@@ -1,0 +1,18 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/noctalia.toml"
+]
+
+[font]
+normal = { family = "JetBrains Mono", style = "Bold"}
+size = 16
+builtin_box_drawing = true
+
+[terminal]
+
+[terminal.shell]
+program = "/usr/sbin/nu"
+[[keyboard.bindings]]
+key = "Back"
+mods = "Control"
+chars = "\u0017"

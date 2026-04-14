@@ -1,0 +1,4964 @@
+ls
+cat test.py
+lsl
+ls
+lsldas
+ls
+ls ~/.config/alacritty/
+nvim
+nvim ~/.config/alacritty/alacritty.toml
+nvim ~/.config/nushell/config.nu
+n ~/.config/nushell/config.nu
+pi
+pir
+n ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu
+n
+v
+s asdf
+n ~/.config/alacritty/alacritty.toml
+n ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu
+ls
+rm -rf dots-hyprland/
+rm -rf crosshair-y/
+ls
+open config.json
+ls
+n ~/.config/niri/config.kdl
+n ~/.config/niri/devices/input.kdl
+n ~/.config/alacritty/alacritty.toml
+ls
+r kitty
+ls
+n ~/.config/niri/devices/keybinds.kdl
+color 2
+config nu
+n ~/.config/nushell/env.nu
+config nu
+n ~/.config/nushell/env.nu
+config nu
+n ~/.config/nushell/env.nu
+config nu
+nvim ~/.config/alacritty/alacritty.toml
+config nu
+nvim ~/.config/alacritty/alacritty.toml
+config nu
+ls
+r kitty
+r illogical-impulse
+r illogical-impulse-fonts-themes
+r kitty
+ls
+ls | select file
+ls | select type
+help
+ls | where file
+clear
+help
+ls
+ls | sort-by size
+ls | get type
+ls | get name,type
+ls | get name type
+ls | get name+type
+ls | get name;type
+ls | get name
+ls
+lsblk
+ls
+cd ~/.config
+cd nushell/
+ls
+cd ~/.config
+ls
+cd
+cd ~/Documents/matrix_calculator/
+ls
+gs
+git status
+s ghostscript
+ls
+n test_api.py
+cd
+cd ~/Documents/School/Goncharov_A_A/2_half/3_tokenizer/
+ls
+config nu
+n ~/.config/alacritty/alacritty.toml
+ls
+cd ~/.config
+ls
+cd niri
+ls
+cd ~/.config/nuclear/
+cd
+ls
+cd ~/.config/nuclear/
+config env 
+ls
+lsblk
+git clone https://github.com/Internium-Entertainment/IxeRam.git
+cd IxeRam/
+cmake -B build -S .
+cmake --build build -j$(nproc)
+sudo ./build/memdebug
+ls
+clear
+git clone https://github.com/Internium-entertainment/itera
+сдуфк
+clear
+ды
+ls
+clear
+n ~/.config/alacritty/alacritty.toml
+n ~/.config/alacritty/themes/noctalia.toml
+n ~/.config/nushell/history.txt
+config nu
+n ~/.config/nushell/env.nu
+config
+config nu
+ls
+fastfetch 
+cava
+sudo ls /mnt/nas/
+fastfetch 
+cava
+n ~/NTO/confa/start.py
+ls
+cd ~/NTO/confa/
+ls
+fd
+bat sdfg.tif
+щ
+o
+open config.json
+ls
+open cutThe15.dbf
+lsblk
+lsblk -f
+lsblk -l
+lsblk -h
+cd ~/.config/niri
+ls
+bat config.kdl
+o 
+open config.kdl
+bar
+ls
+lw
+w
+uptime
+pwd
+fastfetch 
+mkdir -p ~/.config/fastfetch
+mkdir ~/.config/fastfetch
+i fetchit
+s fetchit
+i fetchit-git
+fetchit 
+bat --list-themes
+bat --theme="gruvbox-dark"
+bat --theme="gruvbox-dark" config.kdl
+bat config.kdl
+ls
+bat config.kdl
+bat --style=header,changes,numbers config.kdl
+mkdir ~/.config/bat
+n ~/.config/bat/config
+cd ~/.config/niri
+ls
+bat config.kdl
+o 
+n ~/.config/nushell/config.nu
+cd ~/.config/niri
+ls
+o config.kdl
+o noctalia.kdl
+open noctalia.kdl
+cd ~/.config/niri
+n ~/.config/nushell/config.nu
+n ~/.config/bat/config
+s nvim-desktop
+ls
+mv presentation-ai/ Documents/
+ls
+ls ~/Documents/
+ls
+cd ~/Documents/
+ls
+cd matrix_calculator/
+ls
+gs
+gp
+git push
+cd matrix_calculator/ 
+cd matrix_calculator/
+cd Documents/matrix_calculator/
+ls
+ssh root@144.31.113.234
+ls ~/.ssh/
+n ~/.ssh/known_hosts
+ls ~/.ssh/
+ssh root@144.31.113.234
+lsblk
+fdisk 
+fdisk -d
+fdisk -f
+fdisk -l
+sudo fdisk -l
+cd NTO/
+ls
+mkdir confa2 && cd confa/
+cd confa2
+mkdir confa2
+cd confa2/
+ls
+cd ..
+ls
+cd confa
+ls
+mkdir raw_data
+mv **.zip raw_data/
+mv **.zip* raw_data/
+mv **.*zip raw_data/
+mv *.zip raw_data/
+ls
+cd raw_data/
+ls
+nvim
+killall vesktop
+killall diskord
+killall discord
+bto
+pipewire
+pulseaudio
+cd Documents/
+ls
+mkdir amazepad
+cd amazepad
+cd Documents/amazepad/
+ls
+ls src/
+n src-tauri/src/hotkey.rs
+ls
+tree
+ls
+genact
+i genact
+lsblk
+genact -m botnet
+s nemo
+fetchit 
+r hyprland
+n ~/.config/niri/settings/settings.kdl
+n ~/.config/nvim/init.lua
+n ~/.config/niri/settings/settings.kdl
+n ~/.config/nvim/init.lua
+n ~/.config/nvim/lua/polish.lua
+n ~/.config/nvim/lua/community.lua
+yay
+n ~/.config/niri/settings/settings.kdl
+n ~/.config/niri/noctalia.kdl
+n ~/.config/niri/settings/settings.kdl
+n ~/.config/niri/rules/lrules.kdl
+n ~/.config/niri/rules/wrules.kdl
+n ~/.config/niri/devices/keybinds.kdl
+n ~/.config/niri/devices/input.kdl
+n ~/.config/niri/devices/output.kdl
+n ~/.config/niri/config.kdl
+niri validate
+n ~/.config/niri/settings/settings.kdl
+n ~/.config/niri/config.kdl
+ls
+lsblk
+s crosshair-y
+ls
+clcear
+clear
+cl
+lc
+l
+cl
+s crosshair-git
+git clone https://github.com/YSSF8/crosshair-y.git<\n>cd crosshair-y
+npm install
+npm install --save-dev typescript
+npm audit fix
+npx tsc
+npm start
+sudo pacman -S obs-studio
+n ~/.config/niri/config.kdl
+niri validate
+n ~/.config/niri/settings/settings.kdl
+n ~/.config/niri/devices/input.kdl
+n ~/.config/niri/devices/output.kdl
+n ~/.config/niri/devices/keybinds.kdl
+n ~/.config/niri/settings/settings.kdl
+n ~/.config/niri/settings/cursor.kdl
+n ~/.config/niri/settings/startups.kdl
+n ~/.config/niri/rules/lrules.kdl
+n ~/.config/niri/rules/wrules.kdl
+niri validate
+n ~/.config/niri/config.kdl
+cd ~/.config/niri
+tree
+rm noctalia.kdl
+ls
+n config.kdl
+s badlion
+tmux
+i tmux
+tmux
+tmux attach -t 1
+ping 1.1.1.1
+cd ~/.config/tmux
+mkdir -p ~/.config/tmux
+mkdir ~/.config/tmux
+mkdir -p ~/.config/tmux
+cd ~/.config/tmux
+ls
+tmux
+tmux kill-server
+which nu
+which nushell
+tmux
+tmux kill-server
+tmux
+tmux kill-server
+n ~/.config/tmux/tmux.conf
+n
+cd ~/.config/nvim
+ls
+cd ~/.config/nvim
+cd lua/plugins/
+n user.lua
+ls
+n ~/.config/niri/config.kdl
+ls
+cd ~/.config/nvim
+ls
+cd
+cd ~/Documents/NTO/
+ls
+cd 2025/
+ls
+n 1.py
+cd ~/NTO/confa/
+ls
+ls | where name
+ls | where 
+n start.py
+cd ..
+cd confa/
+ls 
+cd raw_data/
+ls
+qwen
+cd ~/.config/niri
+ls
+niri msg reload-config
+n ~/.config/niri/settings/settings.kdl
+n ~/.config/niri/noctalia.kdl
+n ~/.config/niri/settings/settings.kdl
+ls
+cd ~/.config/nvim
+ls
+n ~/.config/niri/settings/settings.kdl
+cd ~/.config
+ls
+mkdir nvim_bak
+ls
+mv nvim/* nvim_bak/
+ls
+ls nvim
+ls nvim_bak/
+n
+git clone https://github.com/Andrey0189/nvim-config nvim/
+n
+n ~/NTO/confa/start.py
+n ~/NTO/confa/raw_data/main.py
+ls
+n ~/.config/alacritty/alacritty.toml
+n ~/.config/nvim/init.lua
+ls nvim
+cd nvim
+ls
+n lua/config/autocmds.lua
+n lua/config/init.lua
+rename
+i rename
+cd ~/.config
+ls
+mkdir n_t
+mv nvim/* n_t/
+ls nvim
+mv nvim_bak/* nvim/
+ls nvim/
+n
+mv n_t/ nvim_bak/
+n
+:q
+ls
+lsblk
+lsblk -0
+lsblk -f
+lsblk -l
+lsblk -i
+:q
+exit
+tmux
+tmux kill-server
+n 
+cd ~/.config
+ks
+ls
+mv nvim/* nvim_bak/
+mv nvim_bak/* nvim/
+n 
+mv nvim/* nvim_bak/
+n
+mv n_t/* nvim/
+n
+qwen
+cd nvim
+qwen\
+n
+ls
+cd ~/.config/nvim
+ls
+cd lua/
+ls
+cd config/
+ls
+n mappings.lua
+clear
+clar
+clear
+cl
+cal
+fish
+qwen
+cd ~/.config/niri
+ls
+cd ~/.config/niri
+ls
+n ~/.config/nushell/config.nu
+n ~/.config/nushell/env.nu
+s 
+s  oh-my-posh
+i oh-my-posh-bin
+n ~/.config/nushell/env.nu
+ls
+oh-my-posh init nu --config "$env.HOME/.poshthemes/your-theme.omp.json" | save -f ~/.cache/omp.nu
+eval (oh-my-posh init nu --config "$env.HOME/.poshthemes/jandedobbeleer.omp.json")
+oh-my-posh --version
+n ~/.config/nushell/env.nu
+ls
+cd ~/.config/niri
+ls
+oh-my-posh themes list
+ls
+n ~/.config/nushell/config.nu
+ls
+r oh-my-posh-bin
+n ~/.config/nushell/env.nu
+yay -Rns oh-my-posh-bin
+i oh-my-posh-bin
+yay -Rns oh-my-posh-bin
+rm ~/.local/share/nushell/vendor/autoload/oh-my-posh.nu
+i oh-my-posh-bin
+mkdir -p ~/.poshthemes
+mkdir ~/.poshthemes
+wget https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/capr4n.omp.json -O ~/.poshthemes/capr4n.omp.json
+oh-my-posh themes list | grep capr4n
+oh-my-posh config list
+n ~/.config/nushell/config.nu
+ls
+fish
+cd ~/.config/oh-my-posh/
+ls
+n capr4n-custom.omp.json
+ls
+cd ~/.config/oh-my-posh/
+ls
+n capr4n-custom.omp.json
+nvim ~/.config/oh-my-posh/capr4n-custom.omp.json
+n ~/.config/nushell/config.nu
+ls
+nvim ~/.config/oh-my-posh/capr4n-custom.omp.json
+ls
+time
+eval (oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/capr4n-custom.omp.json")
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/capr4n-custom.omp.json"
+nvim ~/.config/oh-my-posh/capr4n-custom.omp.json
+ls
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/capr4n-custom.omp.json"
+ls
+wget https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/gruvbox.omp.json -O ~/.poshthemes/gruvbox.omp.json
+n ~/.config/nushell/config.nu
+oh-my-posh init nu --config $"($env.HOME)/.poshthemes/gruvbox.omp.json"
+ls
+cd ~/.config/oh-my-posh/
+ls
+n capr4n-custom.omp.json
+ls
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/gruvbox-arch.omp.json"
+ls
+cd ~/.config/oh-my-posh/
+ls
+n capr4n-custom.omp.json
+cd ~/.config/oh-my-posh/
+ls
+mv capr4n-custom.omp.json config.json
+ls
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+ls
+cd ~/.config/oh-my-posh/
+ls
+n config.json
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+ls
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+cd ~/.config/oh-my-posh/
+ls
+n config.json
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+ls
+cd ~/.config/oh-my-posh/
+ls
+n config.json
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+cd ~/.config/oh-my-posh/
+n config.json
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+ls
+cd ~/.config/oh-my-posh/
+ls
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+ls
+cd ~/.config/oh-my-posh/
+cd ~/Documents/School/Goncharov_A_A/
+cd ~/.config/oh-my-posh/
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+ls
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+ls
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+ls
+cd ~/.config/oh-my-posh/
+ls
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+ls
+cd ~/.config/oh-my-posh/
+ls
+cd ~/Documents/School/Goncharov_A_A/
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+ls
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+cd ~/Documents/School/Goncharov_A_A/
+ls
+cd ~/Documents/School/Goncharov_A_A/
+ls
+oh-my-posh init nu --config $"($env.HOME)/.config/oh-my-posh/config.json"
+cd ~/Documents/School/Goncharov_A_A/
+n config.json
+lsblk
+paru -S adw-gtk-theme nwg-look
+i  adw-gtk-theme nwg-look
+yay -S ad-gtk-theme
+yay -S adw-gtk-theme
+i nwg-look
+gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3'
+gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3'<\n>gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+i qt6ct
+n ~/.config/niri/settings/settings.kdl
+n ~/.config/niri/settings/startups.kdl
+export QT_QPA_PLATFORMTHEME=qt6ct
+n ~/.config/niri/settings/settings.kdl
+qt6ct
+n ~/.config/niri/devices/keybinds.kdl
+s affinity
+s figma
+i figma-linux-bin
+yay -Rns figma-linux-bin
+exit
+tmux kill-server
+tmux
+ls
+mpv
+i mpv
+ls
+mpv crosshair.png
+rm -rf Bounded/
+ls
+ls IxeRam/
+mpv IxeRam/image.png
+rm -rf IxeRam/
+ls
+rm -rf crosshair-y/
+rm crosshair.png
+ls
+ls go
+ls processing/
+rm -rf processing/
+ls
+n test.py
+rm test.py
+ls
+cd ~/Documents/School/Goncharov_A_A/
+ls
+cd ..
+ls
+cd Goncharov_A_A/
+ls
+cd 2_half/
+ls
+cd 3_tokenizer/
+n ~/.config/niri/devices/keybinds.kdl
+sudo pacman -S xdg-desktop-portal-gtk xdg-desktop-portal-gnome gnome-keyring --needed
+ls /usr/share/xdg-desktop-portal/
+n /usr/share/xdg-desktop-portal/niri-portals.conf
+ls /usr/share/icons/
+ls /usr/share/icons/ get name
+ls /usr/share/icons/ | get name
+gsettings get org.gnome.desktop.interface icon-theme
+gsettings get org.gnome.desktop.interface icon-theme 'Breeze_Light'
+gsettings set org.gnome.desktop.interface icon-theme 'Breeze_Light'
+clear
+cd ~/Downloads/
+ls
+ls | get name
+tar -xf MacTahoe-orange.tar.xz
+ls MacTahoe-orange/
+mv MacTahoe-orange ~/.local/share/icons/
+gsettings set org.gnome.desktop.interface icon-theme 'MacTahoe-orange'
+n ~/.config/niri/rules/wrules.kdl
+niri msg reload-config
+n ~/.config/niri/rules/wrules.kdl
+n ~/.config/nvim/lua/plugins/treesitter.lua
+rm -rf ~/.local/share/nvim<\n>rm -rf ~/.cache/nvim<\n>rm -rf ~/.local/state/nvim
+n
+n ~/.config/nvim/lua/plugins/treesitter.lua
+ls ~/.local/share/nvim/lazy/nvim-treesitter
+n ~/.config/nvim/lua/plugins/treesitter.lua
+rm -rf ~/.cache/nvim
+n ~/.config/nvim/lua/plugins/treesitter.lua
+ls ~/.local/share/nvim/lazy
+ls ~/.local/share/nvim/lazy | wl-copy 
+ls ~/.local/share/nvim/lazy/nvim-treesitter | wl-copy 
+cd ~/.config/nvim
+ls
+git pull
+n init.lua
+n ~/.config/nvim/lua/plugins/treesitter.lua
+n init.lua
+cd ~/.config/niri/
+ls
+n noctalia.kdl
+cd ~/.config/nvim
+n ~/.config/nvim/lua/plugins/treesitter.lua
+lsblk
+sl
+ls
+ды
+lsblk
+cd ~/.config/alacritty/
+ls
+n alacritty.toml
+ls
+cd ~/.config/alacritty/
+ls
+o alacritty.toml
+cd themes/
+ls
+cd ..
+ls
+cd ~/Documents/School/Goncharov_A_A/
+ls
+cd 2_half/3_tokenizer/
+ls
+n tokenizer.py
+gs
+git status
+sg
+cd ../../..
+ls
+cd Ignatkov/Ignatkov_Task5_Perceptron/
+ls
+n perceptron.py
+ls
+ды
+cd Documents/School/
+ls
+cd Goncharov_A_A/
+ls
+cd 2_half/3_tokenizer/
+n tokenizer.py
+lsblk
+ls
+s pihole
+ды
+ls
+cd Public/
+ls
+cd ..
+ls
+rm -rf Public/
+ls
+ls Videos/
+mpv Videos/recording_2026-02-24_15.30.02.mp4
+ls
+rm Videos/*
+ls
+ls Videos/
+ls
+;
+;s
+clear
+ls
+ls Obsidian_DB/
+cd Obsidian_DB/
+св
+firefox /home/sirex/.qwen/insights/insight-2026-03-10.html
+s iso
+s archiso
+i archiso
+archiso
+iso-info 
+ls
+lsblk
+fdisk config/
+fdisk 
+ls
+sl
+ls
+clear
+cd ~/.config
+ls 
+tar nvim
+tar --help
+tar pax nvim
+docker run -d \<\n>-p 8080:8080 \<\n>--name searxng \<\n>searxng/searxng
+sudo nvim /etc/searxng/settings.yml
+!yt
+sudo docker exec -it searxng bash
+sudo docker exec -it searxng
+sudo docker exec -it searxng fish
+sudo docker exec -it searxng nu
+sudo docker exec -it searxng nushell
+docker status searxng
+docker kill searxng
+sudo docker kill searxng
+sudo docker run -d \<\n>-p 8080:8080 \<\n>--name searxng \<\n>--restart unless-stopped \<\n>-v ./searxng:/etc/searxng \<\n>searxng/searxng
+cd /home/sirex/.config/mozilla/firefox/7lo32gnv.default-release
+cd searxng/
+ls
+sudo nvim settings.yml
+ls
+fetchit 
+lsblk
+ls
+ls Music/
+cd Music/
+o create_playlists.sh
+bar create_playlists.sh
+bat create_playlists.sh
+cd ~/Documents/
+ls
+cd matrix_calculator/
+ls
+git status
+ls
+n README.md
+ls
+n python.yp
+n
+:q
+quit
+exit
+cd Documents/matrix_calculator/
+ls
+n config.json
+n CONFIG.md
+clear
+cl
+cal
+s calc
+i calc
+calc
+docker kill searxng
+sudo docker kill searxng
+bc
+i qalc
+s qalc
+cd Documents/matrix_calculator/
+ls
+n cli.py
+i zellij
+clear
+exit
+nu
+clear
+zellij setup --dump-config > ~/.config/zellij/config.kdl
+fish (zellij setup --dump-config > ~/.config/zellij/config.kdl)
+fish <  "zellij setup --dump-config > ~/.config/zellij/config.kdl"
+fish
+clear
+cd ~/.config/zellij/
+ls
+n config.kdl
+n ~/.config/zellij/config.kdl
+fish
+ls
+for
+for i in 10
+ls
+2
+clear
+cd ~/.config/zellij/
+ls
+lsblk
+o lsblk
+ls
+cd ~/Documents/matrix_calculator/
+ls
+n server.py
+ls
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+n nto.py
+python nto.py
+sudo systemd status ly
+sudo systemctl status ly
+sudo systemctl status ly@tty1.service
+sudo systemctl status ly@tty2.service
+sudo systemctl disable ly@tty1.service
+sudo systemctl status getty@tty1.service
+chsh
+chsh -s /usr/sbin/nu
+chsh -l
+chsh -s /bin/nu
+ls
+n ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu
+nvim ~/.config/nushell/env.nu
+n ~/.config/systemd/user/niri.service
+ls /usr/lib/systemd/user/
+rm ~/.config/systemd/user/niri.service
+systemctl enable niri.service
+systemctl --user daemon-reload
+systemctl enable niri.service
+ls -la ~/.config/systemd/user/niri.service
+n ~/.config/systemd/user/niri.service
+systemctl --user daemon-reload
+systemctl enable niri.service
+ls -la ~/.config/systemd/user/niri.service
+systemctl --user enable niri.service
+n ~/.config/systemd/user/niri.service
+systemctl --user daemon-reload
+systemctl --user enable niri.service
+n ~/.config/nushell/env.nu
+n ~/.config/systemd/user/niri.service
+systemctl --user daemon-reload<\n>systemctl --user disable niri.service<\n>systemctl --user enable niri.service
+n ~/.config/nushell/env.nu
+systemctl --user status
+systemd-analyze 
+fetchit 
+n ~/.config/niri/settings/startups.kdl
+cleart
+clear
+ls
+cl
+clera
+clear
+cd Documents/matrix_calculator/
+ls
+clear
+killall AmneziaVPN
+clear
+fetchit 
+killall AmneziaVPN
+cleafrd
+clear
+fetchit 
+clear
+ls
+n nto.py
+cd NTO/confa/
+ls
+cd raw_data/
+ls
+i chromium
+s chrome
+s chromium
+sudo pacman -S chromium
+n main.py
+python main.py
+cd NTO/confa/raw_data/
+ls
+pip install --break-system-packages install rasterio numpy scikit-learn scikit-image shapely pyproj imageio matplotlib pandas
+pip install --break-system-packages  rasterio numpy scikit-learn scikit-image shapely pyproj imageio matplotlib pandas
+n main.py
+python main.py
+ls
+mkdir tiffs
+mv *.tiff tiffs/
+ls
+python main.py --input_dir ./tiffs --output_dir ./out --n_clusters 2 --min_size 500 --make_gif
+python main.py --input_dir ./tiffs --output_dir ./out --n_clusters 2 --min_size 500
+n main.py
+ls
+ls out/
+python main.py --input_dir ./tiffs --output_dir ./out --n_clusters 2 --min_size 500
+n main.py
+python main.py -i ./tiffs -o ./out
+n main.py
+python main.py
+cd NTO/confa/raw_data/
+s snake
+i snake
+snake
+snake --help
+ls
+qwen
+python main.py
+ls
+cd out
+ls
+n oil_spill_summary.csv
+mvp oil_spill_animation.gif
+mpv oil_spill_animation.gif
+cd NTO/confa/raw_data/
+cd secret_ai_client
+mkdir secret_ai_client
+cd secret_ai_client
+mkdir secret_ai
+touch .env.example
+touch README.md
+touch setup.py
+touch requirements.txt
+cd secret_ai/
+touch __init__.py crypto.py file_handler.py client.py
+ls
+tree
+cd ..
+ls
+tree
+cd secret_ai/
+n __init__.py
+ls
+n crypto.py
+python crypto.py
+time python crypto.py
+i time
+ls
+n file_handler.py
+ls
+n client.py
+n __init__.py
+sl
+ls
+cd ..
+ls
+n setup.py
+n requirements.txt
+git init
+ls
+git commit -m "first commit"
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/S1rEx1/math_calculator.git
+git push -u origin main
+git remote add origin git@github.com:S1rEx1/math_calculator.git
+git push -u origin main
+n setup.py
+ls
+o setup.py
+n setup.py
+python setup.py
+lsblk
+n setup.py
+pip install build twine
+pip install build twine --break-system-packages
+ls
+python -m build
+ls
+twine check dist/*
+i twine
+s twine
+sudo pacman -S twine
+pip install twine --break-system-packages
+twine
+cd secret_ai_client/
+;s
+ls
+python -m twine upload dist/*
+clear
+cd Downloads/
+ls
+python -m twine upload dist/*
+св
+cd
+pip install secret-ai-client --break-system-packages
+cd secret_ai_client/
+ls
+cd secret_ai_client/
+ls
+rm -rf dist/ *.egg-info
+python -m build
+ls
+python -m twine upload dist/*
+python -m twine upload dist/* --verbose
+pip search math
+pip install --break-system-packages math-calculator
+pip install --break-system-packages matrix-calculator
+pip install --break-system-packages matrix-math-calculator
+ls
+n setup.py
+rm -rf dist/ *.egg-info
+python -m build
+python -m twine upload dist/*
+python -m twine upload dist/* --verbose
+cd secret_ai_client/
+ls
+python -m twine upload dist/* --verbose
+ga
+gc "asdasdasd"
+gp
+pip install --break-system-packages matrix-math-calculator
+n setup.py
+python setup.py
+touch task.txt
+python setup.py
+cd secret_ai_client/
+ls
+cd library_back/
+ls
+pip install --break-system-packages -r requirements.txt
+i uvicorn
+uvicorn app.main:app --host 0.0.0.0 --port 8000
+ks
+ls
+cd app/
+ls
+cd ..
+ls
+cp .env.example .env
+cd ~/library_back/
+python3 -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode()"
+python3 -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+n .env
+cd ~/secret_ai_client/
+ls -a
+cp .env.example .env
+n .env
+echo "what is 2+2" > task.txt
+ls
+n task.txt
+pip install -e .
+pip install -e . --break-system-packages
+python3 -c "from math_calc import MathCalculator; MathCalculator.solve()"
+n .env
+python3 -c "from math_calc import MathCalculator; MathCalculator.solve()"
+uvicorn app.main:app --host 0.0.0.0 --port 8000
+n .env
+uvicorn app.main:app --host 0.0.0.0 --port 8000
+python3 -c "from math_calc import MathCalculator; MathCalculator.solve()"
+n task.txt
+python3 -c "from math_calc import MathCalculator; MathCalculator.solve()"
+uvicorn app.main:app --host 0.0.0.0 --port 8000
+ls
+cd app
+ls
+n main.py
+uvicorn app.main:app --host 0.0.0.0 --port 8000
+cd ..
+n task.txt
+uvicorn app.main:app --host 0.0.0.0 --port 8000
+python3 -c "from math_calc import MathCalculator; MathCalculator.solve()"
+scp
+scp -r ~/library_back/ root@144.31.113.234:/root/
+cd ~/secret_ai_client/
+n .env
+n task.txt
+python3 -c "from math_calc import MathCalculator; MathCalculator.solve()"
+n setup.py
+ls
+cd ~/secret_ai_client/
+ls
+cd
+n test.py
+python test.py
+uvicorn app.main:app --host 0.0.0.0 --port 8000
+ls
+cd ~/secret_ai_client/
+ls
+cd
+python3 -c "from math_calc import MathCalculator; MathCalculator.solve()"
+cd ~/secret_ai_client/
+ls
+pip install matrix-math-calc
+pip install matrix-math-calc --break-system-packages
+pip install math-matrix-calc --break-system-packages
+ls
+n setup.py
+matrix
+python -m twine upload dist/* --verbose
+cd
+ls
+mkdir tasks
+cd tasks
+ls
+touch main.py task.txt
+ls
+n main.py
+pip install math-matrix-calc --break-system-packages
+pip install matrix-math-calc --break-system-packages
+n ~/.config/nushell/config.nu
+pi matrix-math-calc
+pi matrix-math-calculator
+qwen --resume
+cd ~/secret_ai_client/
+ls
+n main.py
+pip show matrix-math-calculator
+n main.py
+python main.py
+python main.py | wl-copy 
+n main.py
+python main.py | wl-copy 
+ssh root@144.31.113.234
+ls
+fetchit 
+fastfetch 
+n .env
+pip uninstall matrix-math-calculator -y
+pip uninstall matrix-math-calculator -y --break-system-packages
+cd tasks
+n main.py
+pi matrix-math-calculator
+n main.py
+python main.py
+rm -rf dist/ *.egg-info
+python -m build
+cd ~/secret_ai_client/
+rm -rf dist/ *.egg-info
+python -m build
+python -m twine upload dist/*
+python -m twine upload dist/* --verbose
+n setup.py
+python -m twine upload dist/* --verbose
+n setup.py
+python setup.py
+n setup.py
+rm -rf dist/ *.egg-info
+python -m build
+python -m twine upload dist/* --verbose
+cd ~/tasks/
+ls
+n main.py
+python main.py
+pip uninstall matrix-math-calculator -y --break-system-packages
+pi matrix-math-calculator
+python main.py
+pip uninstall matrix-math-calculator -y --break-system-packages
+pi matrix-math-calculator
+n main.py
+python main.py
+n task.txt
+python main.py
+n .env
+curl http://144.31.113.234:8000/health
+n .env
+python main.py
+n .env
+python main.py
+n .env
+python main.py
+n main.py
+python main.py
+n task.txt
+n main.py
+python main.py
+cd ~/secret_ai_client/
+pip uninstall matrix-math-calculator -y --break-system-packages
+rm -rf dist/ *.egg-info
+python -m build
+rm -rf dist/ *.egg-info
+ls
+n math_calc/math_solver.py
+python -m build
+python -m twine upload dist/* --verbose
+rm -rf dist/ *.egg-info
+n setup.py
+python -m build
+python -m twine upload dist/* --verbose
+pi matrix-math-calculator
+i python-matrix-math-solver
+i python-matrix_math_solver
+i python-matrix-math-calculator
+pip uninstall matrix-math-calculator -y --break-system-packages
+pi matrix-math-calculator
+cd ~/tasks/
+ls
+o main.py
+python main.py
+n task.txt
+n main.py
+cd ~/secret_ai_client/
+ls
+rm -rf dist/ *.egg-info
+n setup.py
+python -m build
+python -m twine upload dist/* --verbose
+pip uninstall matrix-math-calculator -y --break-system-packages
+pi matrix-math-calculator
+pip uninstall matrix-math-calculator -y --break-system-packages
+pi matrix-math-calculator
+cd ~/tasks/
+ls
+n main.py
+python main.py
+n main.py
+python main.py
+n main.py
+cd ~/secret_ai_client/
+ls
+rm -rf dist/ *.egg-info
+n setup.py
+python -m build
+python -m twine upload dist/* --verbose
+cd ~/tasks/
+pip uninstall matrix-math-calculator -y --break-system-packages
+pi matrix-math-calculator
+pip uninstall matrix-math-calculator -y --break-system-packages
+pi matrix-math-calculator
+n main.py
+touch task.py
+n task.txt
+python main.py
+pip uninstall matrix-math-calculator -y --break-system-packages
+cd ~/tasks/
+ls
+n task.txt
+n main.py
+pi matrix-math-calculator
+n main.py
+python main.py
+n task.txt
+python main.py
+cd tasks
+ls
+n task.txt
+n main.py
+python main.py
+qwen --resume
+cd ~/secret_ai_client/
+qwen --resume
+cd ~/tasks/
+ls
+python main.py
+cd ~/secret_ai_client/
+pip install -e .
+pip install -e . --break-system-packages
+cd ~/tasks/
+cd ~/secret_ai_client/
+python3 main.py
+cd tasks/
+ls
+ssh root@144.31.113.234
+python main.py
+pip install -e . --break-system-packages
+cd ~/secret_ai_client/
+pip uninstall matrix-math-calculator -y --break-system-packages
+pip install -e . --break-system-packages
+cd ~/tasks/
+ls
+python main.py
+cd ~/tasks/
+n task.txt
+python main.py
+n task.py
+n main.py
+n task.txt
+n main.py
+python main.py
+n task.txt
+python main.py
+n task.txt
+python main.py
+n task.txt
+python main.py
+n task.txt
+python main.py
+cd tasks/
+ls
+n task.txt
+python main.py
+n task.txt
+python main.py
+n task.txt
+python main.py
+n task.txt
+python main.py
+n task.txt
+python main.py
+n task.txt
+python main.py
+n task.txt
+o main.py
+lsblk
+n main.py
+ls
+n task.py
+lsblk
+fdisk 
+fdisk -l
+sudo fdisk -l
+n main.py
+n task.txt
+python main.py
+n task.txt
+python main.py
+pi matrix-math-calculator
+cd tasks/
+ls
+n main.py
+cd tasks/
+ls
+python main.py
+cd tasks/
+ls
+clera
+clear
+ls
+n main.py
+pi matrix-math-calculator
+n main.py
+python main.py
+n task.txt
+i quickshell
+yay -S quickshell
+clear
+qs
+cd ~/.config/quickshell/
+ls
+n shell.qml
+qs
+which quickshell
+yay -S quickshell
+qs
+export QML2_IMPORT_PATH="$HOME/.local/share/quickshell/qml:$QML2_IMPORT_PATH"
+fish
+qs
+i qt6-quick libxkbcommon qt6-declarative
+i quickshell-git
+ды
+ls
+i quickshell
+qs
+pacman -Ql quickshell | grep "\.qml"
+fiish
+qs --restart
+steam &
+sudo reboot now
+qs 
+rm ~/.config/quickshell/shell.qml
+lsblk
+df
+du
+ncdu
+i ncdu
+killall AmneziaVPN
+ls
+sudo rm -rf searxng/
+sudo rm -rf Desktop/
+lscpu | grep Virtualization
+dmesg | grep -i iommu
+sudo dmesg | grep -i iommu
+sudo lscpu | grep Virtualization
+lscpu | grep -E "Virtualization|Flags"
+grep -E "vmx|svm" /proc/cpuinfo
+dmesg | grep -i iommu
+sudo dmesg | grep -i iommu
+sudo nano /boot/loader/entries/arch.conf
+sudo cd /boot/loader/
+ls
+cd /boot/loader/
+ls
+n loader.conf
+cd entries/
+ls
+sudo nvim arch.conf
+sudo reboot
+sudo dmesg | grep -i iommu
+sudo dmesg | grep -i iommu | wl-copy
+lspci -nn | grep -E "VGA|3D"
+lspci -nn | grep -i "audio"
+ls
+n asd.sh
+./asd.sh
+./asd.sh | wl-copy 
+sudo nvim /etc/modprobe.d/vfio.conf
+sudo nvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo reboot
+lspci -nnk -s 03:00.0
+lspci -nnk -s 03:00.1
+sudo nano /etc/modprobe.d/vfio-blacklist.conf
+sudo nvim /etc/modprobe.d/vfio-blacklist.conf
+sudo mkinitcpio -P
+sudo bootctl update
+sudo reboot
+ls
+nvtop
+lspci -nnk -s 03:00.1
+lspci -nnk -s 03:00.0
+sudo rm /etc/modprobe.d/vfio-blacklist.conf
+sudo nvim /etc/modprobe.d/vfio.conf
+sudo mkinitcpio -P
+sudo reboot
+lspci -nnk -s 03:00.0
+lspci -nnk -s 03:00.0 | wl-copy
+sudo pacman -S qemu-desktop libvirt virt-manager edk2-ovmf dnsmasq bridge-utils
+i qemi
+i qemu
+i qemu-full
+sudo pacman -S qemu-desktop libvirt virt-manager edk2-ovmf dnsmasq bridge-utils | wl-copy
+sudo pacman -S qemu-desktop libvirt virt-manager edk2-ovmf dnsmasq bridge-utils
+sudo pacman -Syu
+sudo pacman -Syy
+sudo pacman -S qemu-desktop libvirt virt-manager edk2-ovmf dnsmasq bridge-utils
+sudo systemctl enable --now libvirtd<\n>sudo systemctl enable --now virtlogd
+sudo usermod -aG libvirt $USER
+sudo usermod -aG libvirt sirex
+sudo reboot
+ls -l /dev/kvm
+sudo groupadd kvm 2>/dev/null<\n>sudo usermod -aG kvm $USER<\n>sudo chmod 660 /dev/kvm
+lscpu | grep Virtualization
+lsmod | grep kvm
+ls -l /dev/kvm
+sudo modprobe kvm
+sudo modprobe kvm_amd
+ls -l /dev/kvm
+lsmod | grep kvm
+sudo chmod 660 /dev/kvm
+ls -l /dev/kvm
+nvtop
+echo -e "kvm\nkvm_amd" | sudo tee /etc/modules-load.d/kvm.conf
+sudo modprobe kvm_amd
+ls
+mcdu
+mdcu
+ollama
+ollama list<\n>
+ollama stop
+ollama rm huihui_ai/qwen3.5-abliterated:35b
+ollama list<\n>
+ncdu
+mkdir -p /home/sirex/vms/win11
+virsh edit win11
+QEMU
+wget https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win.iso -O ~/virtio-win.iso
+n start-win11.sh
+sudo modprobe vfio-pci
+ls
+./start-win11.sh
+n ~/.config/niri/devices/keybinds.kdl
+i dutify
+i dotify
+s dotify
+r dotify
+i nodotify
+yay -Rns dotify
+i dotify
+yay -Rns dotify
+i nodotify
+rm /usr/lib/debug/usr/bin/dotify.debug
+sudo rm /usr/lib/debug/usr/bin/dotify.debug
+i nodotify
+r nodotifyt
+r nodotify
+i spotiflac
+s spotiflac
+i spotiflac-bin
+r telegram-desktop
+r telegram-desktop-bon
+r telegram-desktop-bin
+n asd.sh
+ls
+n start-win11.sh
+ls
+n asd.sh
+systemd-analyze 
+output-scale 1
+i output-scale
+i bottom
+bot
+bottom
+r bottom
+i bottom-git
+mkdir ascii_shader
+cd ascii_shader/
+ls
+cd ascii_shader/
+ls
+ls src
+tree
+ls
+tree
+ls
+ls target/
+ls src/
+cd target/
+ls
+cd release/
+ls
+..
+.
+..
+ls
+n README.md
+asciitopgm 
+ls
+ping iusearchbtw.ru
+ssh root@144.31.113.234
+ls
+ls -la
+ls -la /etc
+ls
+chafa
+i chafa
+dig +short panel.iusearchbtw.ru
+ssh root@144.31.113.234
+i nekoray-bin
+s nekoray
+i nekoray-bin
+i nekoray-qt6
+s v2rayng
+mkdir tg_vpn
+cd tg_vpn/
+ls
+kiro
+q
+ls
+n prompt.md
+q
+ls
+n config.py
+python main.py
+pir
+python main.py
+pi aiogram
+python main.py
+pi sqlalchemy
+python main.py
+pi aiosqlite
+python main.py
+pi qrcode
+python main.py
+q
+kiro-cli --resume-picker
+kiro-cli --resume
+kiro-cli chat --resume
+cd tg_vpn/
+python main.py
+ls
+n config.py
+python main.py
+cd tg_vpn/
+ls
+cd tg_vpn/
+python main.py
+cd tg_vpn/
+ls
+n config.py
+cd tg_vpn/
+tar -czf bot.tar.gz *
+ls
+scp bot.tar.gz root@144.31.113.234:/root/
+python main.py
+dig +short connect.iusearchbtw.ru
+dig +short panel.iusearchbtw.ru
+cd /home/sirex/tg_vpn<\n>tar -czf bot.tar.gz *<\n>scp bot.tar.gz root@your-vps-ip:/root/
+cd /home/sirex/tg_vpn<\n>tar -czf bot.tar.gz *<\n>scp bot.tar.gz root@144.31.113.234:/root/
+dig +short panel.iusearchbtw.ru
+dig +short connect.iusearchbtw.ru
+ls
+rm bot.tar.gz
+ls
+cd /home/sirex/tg_vpn<\n>tar -czf bot.tar.gz *
+scp bot.tar.gz root@144.31.113.234:/root/
+rm bot.tar.gz
+cd /home/sirex/tg_vpn<\n>tar -czf bot.tar.gz *<\n>scp bot.tar.gz root@144.31.113.234:/root/
+ssh root@144.31.113.234
+i v2raytun
+s v2rayng
+s v2ray
+s v2ray
+i v2rayn
+i nekoray-bin
+sudo pacman -Y
+sudo pacman -Yy
+sudo pacman -Yu
+sudo pacman -Syu
+cd /home/sirex/tg_vpn/
+i nekoray-bin
+i v2rayn
+killall firefox
+killall AmneziaVPN
+yay -S v2raya
+sudo pacman -S v2raya
+s coala-clash
+s koala-clash
+sudo koala-clash 
+yay -S clash-meta
+clash-meta
+i nekoray-bin
+curl ifconfig.me
+ls -l /dev/net/tun
+sudo modprobe tun
+lsmod | grep tun
+sudo koala-clash --install-service
+fish
+r koala-clash-bin
+s clash-verge
+i koala-bin
+i clash-verge-bin
+i koala-bin
+wget https://github.com/koalalorenzo/koala-clash/releases/download/vX.Y.Z/Koala.Clash-linux-amd64.tar.gz
+i koala-clash-bin
+i koala-clash
+sudo nvim /etc/systemd/system/koala-clash.service
+killall koala-clash
+sudo koala-clash -d /etc/koala
+r koala-clash-bin
+ip link show tun0
+yay -S clash-premium-bin
+s clash
+i clash-linux
+i Qv2ray
+s qv2ray
+i qv2ray-static-nightly-bin
+i v2rayn
+s v2raya
+i v2raya-bin
+v2raya
+sudo systemctl enable --now v2raya
+sudo iptables -t nat -L -n -v
+sudo iptables -L -n -v
+sudo iptables -F
+sudo iptables -L -n -v
+sudo iptables -F
+sudo iptables -t nat -F
+sudo iptables -t mangle -F
+sudo iptables -X
+sudo iptables -t nat -X
+sudo iptables -t mangle -X
+sudo iptables -P INPUT ACCEPT
+sudo iptables -P FORWARD ACCEPT
+sudo iptables -P OUTPUT ACCEPT
+nft
+sudo nft list ruleset
+sudo nft flush ruleset
+cat /etc/resolv.conf
+ip route show
+sudo systemctl restart NetworkManager
+ip route show
+sudo systemctl stop v2raya
+sudo systemctl disable v2raya
+sudo systemctl restart NetworkManager
+ip route show
+ping -c 3 8.8.8.8
+gsettings get org.gnome.system.proxy mode
+gsettings get org.gnome.system.proxy.http mode
+gsettings get org.gnome.system.proxy.http host
+gsettings get org.gnome.system.proxy.https host
+gsettings set org.gnome.system.proxy mode 'none'
+gsettings get org.gnome.system.proxy mode
+sudo systemctl start v2raya
+ping 1.1.1.1
+sudo pacman -Syu
+yay
+yay -S nekoray-bin
+i hiddify
+happ
+r hiddify
+r happ
+s happ
+yay -Rns happ-desktop-bin
+yay -S happ-desktop-bin
+happ
+happ 
+ls ~/.config/Happ/
+rm -rf ~/.config/Happ/
+ls ~/.config/
+happ
+killall happ
+btop
+sudo killall happ
+happ --enable-features=UseOzonePlatform --ozone-platform=wayland<\n>
+happ
+sudo systemctl stop happ-desktop
+sudo systemctl stop happ
+sudo killall -9 happ-desktop
+sudo killall -9 happ
+rm -rf ~/.config/Happ/
+rm -rf ~/.config/Happ.conf
+rm -rf ~/.local/share/Happ/
+rm -rf ~/.cache/Happ/
+happ
+pacman -Qi happ-desktop-bin
+s happ
+r happ-desktop-bin
+i happ-desktop-bin
+happ
+happ 1
+happ-desktop
+r happ-desktop-bin
+s happ
+s happ-desktop
+i happ-desktop
+happ --disable-gpu
+happ --disable-gpu-sandbox
+happ-desktop
+i debtap
+debtap
+cd Dow
+cd Downloads/
+ls
+debtap Happ.linux.arm64.deb
+debtap -u
+sudo debtap -u
+debtap -u
+s debtap
+ls
+debtap -u
+sudo debtap -u
+ls
+sudo debtap -u
+r debtap
+i debtap-mod
+debtap
+i debtap
+happ-desktop
+happ
+Happ
+happ
+i happ
+happ
+happ --disable-gpu
+happ --enable-logging --v=1
+happ-desktop-bin
+happ-desktop
+which happ
+/usr/bin/happ
+/opt/happ/bin/Happ 
+/opt/happ/bin/Happ --disable-gpu
+rm -rf ~/.config/Happ<\n>rm -rf ~/.config/happ<\n>rm -rf ~/.local/share/Happ<\n>rm -rf ~/.local/share/happ<\n>rm -rf ~/.cache/Happ<\n>rm -rf ~/.cache/happ
+happ
+yay -S happ --force
+yay -Rns happ-desktop-bin
+yay -S happ --force
+yay -S happ
+cat $(which Happ)
+which xray
+which sing-box
+sudo pacman -S xray
+i xray
+sudo chmod +x /usr/bin/xray 2>/dev/null<\n>sudo chmod +x /usr/bin/sing-box 2>/dev/null
+sudo pacman -S libxcrypt-compat
+sudo pacman -S geoip geoview
+i geoview
+sudo pacman -S golang-go<\n>
+r clash-verge
+i sing-box
+r clash-verge-bin
+yay -S clash-verge-rev-bin
+which mihomo
+ls -la ~/.config/clash-verge-rev/
+sudo ss -tlnp | grep 7890
+ls ~/.config/clash-verge-rev/clash/
+ls ~/.config/clash-verge/
+ls ~/.config/clash/
+ls ~/.config/clash-verge/
+mihomo -d ~/.config/clash-verge -f ~/.config/clash-verge/clash/config.yaml
+mihomo -d ~/.config/clash-verge -f ~/.config/clash-verge/config.yaml
+r clash-verge-bin
+r clash-verge-rev-bin
+s v2ray
+yay -S hiddify-next-bin
+r hiddify
+r hiddify-bin
+r hiddify-next
+r hiddify-next-bin
+curl -s "https://connect.iusearchbtw.ru:8443/config/b4ea8407-2ffe-4a1b-afa1-3af1cf68ab56" --insecure > ~/.config/xray/config.json
+curl -s "http://panel.iusearchbtw.ru:2096/sub/5k22pj42ld8n3n1h" --insecure > ~/.config/xray/config.json
+i subconverter
+s nekoray
+i nekoray-qt6
+subconverter 
+i hiddify-next-bin
+pacman -Qi happ-desktop-bin
+wget https://github.com/MatsuriDayo/nekoray/releases/latest/download/nekoray-3.26-64-linux.AppImage
+cd Downloads/
+chmod +x nekoray-4.0.1-2024-12-12-linux-x64.AppImage
+ls .config/nekoray/
+./Downloads/nekoray-4.0.1-2024-12-12-linux-x64.AppImage
+sudo -E ./nekoray-*.AppImage
+sudo -E ./Downloads/nekoray-*.AppImage
+./Downloads/nekoray-*.AppImage
+sudo -E ./Downloads/nekoray-4.0.1-2024-12-12-linux-x64.AppImage
+sudo ./Downloads/nekoray-4.0.1-2024-12-12-linux-x64.AppImage
+r hiddify-next-bin
+mkdir -p ~/apps/nekoray<\n>cd ~/apps/nekoray<\n>
+mkdir  ~/apps/nekoray<\n>cd ~/apps/nekoray<\n>
+ls
+cd ..
+ls
+cd nekoray/
+~/Downloads/nekoray-4.0.1-2024-12-12-linux-x64.AppImage --appimage-extract
+ls
+cd squashfs-root/
+ls
+cd ..
+ls
+mv squashfs-root/* .
+ls
+rm -rf squashfs-root/
+sudo setcap cap_net_admin+ep ./nekobox_core<\n># или<\n>sudo setcap cap_net_admin+ep ./xray
+sudo setcap cap_net_admin+ep ./nekobox_core
+./nekory
+./Downloads/nekoray-4.0.1-2024-12-12-linux-x64.AppImage
+cd apps/nekoray/
+ls
+./nekobox
+n ~/.config/niri/devices/keybinds.kdl
+n ~/.config/niri/settings/startups.kdl
+n ~/.config/niri/settings/startups.kdl
+# Скрипт запуска<\n>rm -f ~/start-win11.sh<\n><\n># Папка с виртуалкой и диском (230 ГБ)<\n>rm -rf /home/sirex/vms/win11<\n><\n># Скачанные ISO (если лежат отдельно)<\n>rm -f ~/virtio-win.iso
+sudo rm -f /etc/modprobe.d/vfio.conf<\n>sudo rm -f /etc/modprobe.d/vfio-blacklist.conf
+sudo rm -f /etc/modules-load.d/kvm.conf
+sudo rm -f /etc/udev/rules.d/99-kvm.rules
+sudo nvim /etc/mkinitcpio.conf
+sudo nvim /boot/loader/entries/arch.conf
+sudo pacman -Rns qemu-desktop libvirt virt-manager edk2-ovmf dnsmasq bridge-utils swtpm
+sudo gpasswd -d $USER libvirt<\n>sudo gpasswd -d $USER kvm
+fish
+sudo mkinitcpio -P
+sudo bootctl update
+sudo reboot
+lspci -nnk -s 03:00.0 | grep "Kernel driver"
+lsmod | grep amdgpu
+dmesg | grep -iE "amdgpu|gpu|error" | tail -20<\n>
+sudo dmesg | grep -iE "amdgpu|gpu|error" | tail -20<\n>
+vulkaninfo --summary 2>&1 | head -5
+sudo pacman -S lib32-mesa lib32-vulkan-radeon lib32-vulkan-icd-loader
+steam --reset
+sudo pacman -Syu
+steam &
+r qwt-qt6
+groups sirex
+sudo usermod -aG video,render sirex
+sudo pacman -Syu
+AyuGram 
+steam
+killall seaofthieves
+killall theafina
+killall theafine
+i nekoray-bin
+s camera
+i kamera
+i telegram-desktop-bin
+./apps/nekoray/nekobox
+s replay
+s replay-sorcery
+i replay-sorcery
+sudo systemctl --user enable --now replay-sorcery
+sudo systemctl enable --now replay-sorcery
+replay-sorcery 
+s wf-recorder
+i gpu-screen-recorder
+gpu-screen-recorder -w screen -a alsa_output.pci-0000_03_00.6.analog-stereo.monitor -o ~/Videos -c 60 -r 30 -f mp4 -m instant-replay
+gpu-screen-recorder -w screen -a alsa_output.pci-0000_03_00.6.analog-stereo.monitor -o ~/Videos -c 60 -r 30 -m instant-replay
+gpu-screen-recorder -w screen -a alsa_output.pci-0000_03_00.6.analog-stereo.monitor -o ~/Videos -c 60 -r 30 -f mp4 instant-replay
+gpu-screen-recorder
+gpu-screen-recorder --version
+gpu-screen-recorder gui
+s gpu-screen-recorder
+i gru-screen-recorder-ui
+i gpu-screen-recorder-ui
+gpu-screen-recorder-ui
+gpu-screen-recorder
+n ~/.config/niri/settings/startups.kdl
+i xdg-desktop-portal
+i xdg-desktop-portal-gnome
+i pipewire
+niri validate
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-gnome xdg-desktop-portal-gtk pipewire wireplumber
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-gnome xdg-desktop-portal-gtk pipewire wireplumber --needed
+vesktop
+mpd
+ls /etc
+ls /etc | less
+ls /etc | less 5
+ls /etc | 5
+systemctl --user status graphical-session.target<\n>systemctl --user status niri.service
+systemctl --user status niri.service
+clear
+systemctl --user disable niri.service
+ls
+n ~/.config/nushell/config.nu
+cd /etc/systemd/system/getty@tty1.service.d/
+ls
+n autologin.conf
+cd
+n ~/.profile
+./apps/nekoray/nekobox
+./apps/nekoray/nekobox &
+s ProtonUp-Qt
+i ProtonUp-Qt-bin
+i ProtonUp-Qt
+sudo pacman -S reflector rsync
+sudo reflector --verbose \<\n>  --country "$(curl -sSL 'https://ifconfig.co/country-iso')" \<\n>  --latest 25 \<\n>  --sort age \<\n>  --save /etc/pacman.d/mirrorlist
+lsmod | grep ntsync
+sudo modprobe ntsync
+lsmod | grep ntsync
+uname -r
+uname 
+cd tg_vpn/
+ls
+n config.py
+sudo pacman -S pipewire wireplumber xdg-desktop-portal xdg-desktop-portal-gnome xdg-desktop-portal-gtk --needed
+n ~/.config/xdg-desktop-portal/portals.conf<\n>
+systemctl --user restart xdg-desktop-portal.service xdg-desktop-portal-gnome.service xdg-desktop-portal-gtk.service<\n>
+sudo pacman -S gnome-desktop-4<\n>
+systemctl --user restart xdg-desktop-portal.service xdg-desktop-portal-gnome.service<\n>
+journalctl --user -xeu xdg-desktop-portal-gnome.service<\n>
+systemctl --user status dbus.service<\n>
+systemctl --user status xdg-desktop-portal-gnome.service<\n>
+pacman -Qs portal<\n>
+r illogical-impulse-portal
+pacman -Qs portal<\n>
+sudo pacman -R xdg-desktop-portal-hyprland xdg-desktop-portal-kde<\n>
+r plasma-meta
+sudo pacman -R xdg-desktop-portal-hyprland xdg-desktop-portal-kde<\n>
+r plasma-integration
+r plasma-workspace
+r plasma
+r illogical-impulse
+r illogical-impulse-kde
+r plasma
+r plasma-workspace
+r kdeplasma-addons plasma-browser-integration 
+r plasma-workspace
+r plasma-desktop
+sudo pacman -R xdg-desktop-portal-hyprland xdg-desktop-portal-kde<\n>
+r plasma-integration
+r plasma-workspace
+r plasma-vault
+r plasma-login-manager plasma-nm plasma-pa powerdevil xdg-desktop-portal-kde
+r plasma-login-manager plasma-nm plasma-pa powerdevil xdg-desktop-portal-kde plasma-welcome plasma-integration
+r plasma-login-manager plasma-nm plasma-pa powerdevil xdg-desktop-portal-kde plasma-welcome plasma-integration plasma-workspace
+sudo pacman -R xdg-desktop-portal-hyprland xdg-desktop-portal-kde<\n>
+sudo pacman -R xdg-desktop-portal-hyprland
+systemctl --user restart xdg-desktop-portal.service xdg-desktop-portal-gnome.service xdg-desktop-portal-gtk.service<\n>
+systemctl --user status xdg-desktop-portal-gnome.service<\n>
+systemctl --user status xdg-desktop-portal-gnome.service | wl-copy<\n>
+pacman -Q gnome-desktop-4<\n>
+cd ~/.config/environment.d/
+mkdir ~/.config/environment.d/
+cd ~/.config/environment.d/
+ls
+n 10-desktop-portal.conf
+n ~/.config/niri/settings/settings.kdl
+echo $XDG_CURRENT_DESKTOP<\n>
+cd ~/.config/environment.d/
+cd ..
+rm -rf environment.d/
+busctl --user introspect org.freedesktop.impl.portal.desktop.gnome /org/freedesktop/portal/desktop
+cd ~/.config/systemd/user/
+ls
+ln -sf /dev/null ~/.config/systemd/user/gnome-session-initialized.target<\n>
+ls
+n gnome-session-initialized.target
+systemctl --user daemon-reload<\n>
+systemctl --user restart xdg-desktop-portal.service xdg-desktop-portal-gnome.service xdg-desktop-portal-gtk.service<\n>
+journalctl -xe
+systemctl status dbus
+i wlcrosshair
+wlcrosshair 
+wlcrosshair --help
+bash
+cd ~/.config/wlcrosshair/
+n config.toml
+wlcrosshair 
+ls
+touch config.toml
+wlcrosshair 
+n config.toml
+wlcrosshair 
+wlcrosshairctl toggle
+systemctl enable wlcrosshairctl
+n config.toml
+wlcrosshairctl
+wlcrosshair
+wlcrosshairctl
+wlcrosshairctl start
+wlcrosshairctl toggle
+wlr-randr
+niri --msg outputs
+niri outputs
+niri msg outputs
+n ~/.config/niri/rules/wrules.kdl
+niri validate
+n ~/.config/niri/rules/wrules.kdl
+wlcrosshairctl toggle
+wlcrosshair &
+r wlcrosshairctl
+r wlcrosshair
+ls ~/.config/wlcrosshair/
+rm -rf ~/.config/wlcrosshair/
+ls ~/.config
+git clone git@github.com:marzeq/wlcrosshair.git<\n>cd wlcrosshair
+ls
+go build -o wlcrosshair ./cmd/wlcrosshair
+go build -o wlcrosshairctl ./cmd/wlcrosshairctl
+wlcrosshair
+ls
+./wlcrosshair
+mkdir ~/.config/wlcrosshair
+./wlcrosshair
+n ~/.config/wlcrosshair/config.toml
+ls
+wlcrosshair
+cd wlcrosshair/
+ls
+./wlcrosshairctl toggle
+./wlcrosshair
+mdkir crosshair
+mkdir crosshair
+cd crosshair/
+ls
+cd crosshair/
+cargo run --release
+cargo build --release
+./crosshair
+./target/release/crosshair --dot --color #00aaff
+./target/release/crosshair --dot --color 00aaff
+./target/release/crosshair --dot
+./target/release/crosshair
+./target/release/crosshair --color 00aaff
+./target/release/crosshair --color 00aaff --dot
+cargo build --release
+./target/release/crosshair --color 00aaff --dot
+./target/release/crosshair --color 00aaff --dot --radius 2
+cargo build --release
+./target/release/crosshair --color 00aaff --dot --radius 2
+./target/release/crosshair --color 00aaff --dot --radius 3
+./target/release/crosshair --color 00aaff --dot --radius 2
+./target/release/crosshair --color 00aaff --dot --radius 1
+./apps/nekoray/nekobox &
+./target/release/crosshair --color f54242 --dot --radius 1
+./target/release/crosshair --color f54242 --dot --radius 1 ?
+./target/release/crosshair --color f54242 --dot --radius 1 &
+fetchit 
+quit
+exit
+zellij
+s dyaday
+s dyadya
+s dada
+cd Downloads/
+ls
+ls | where name 
+ls | sort-by date
+ls
+ls | sort-by modified
+chmod +x VanyaVPN.AppImage
+./VanyaVPN.AppImage
+./apps/nekoray/nekobox &
+systemctl --user status xdg-desktop-portal-gnome.service
+r xdg-desktop-portal-gnome
+i xdg-desktop-portal-wlr
+systemctl --user status xdg-desktop-portal-wlr
+systemctl --user start xdg-desktop-portal-wlr
+systemctl --user start --now xdg-desktop-portal-wlr
+systemctl --user status xdg-desktop-portal-wlr
+r xdg-desktop-portal-wlr
+sudo pacman -S pipewire wireplumber xdg-desktop-portal xdg-desktop-portal-gnome xdg-desktop-portal-gtk<\n>
+n ~/.config/xdg-desktop-portal/portals.conf
+sudo pacman -Rs xdg-desktop-portal-gnome
+<\n>sudo pacman -S xdg-desktop-portal-wlr xdg-desktop-portal-gtk
+n ~/.config/xdg-desktop-portal/portals.conf
+rm -rf ~/.config/xdg-desktop-portal/
+i xdg-desktop-portal-gnome
+sudo pacman -S slurp
+i xdg-desktop-portal-niri 
+i xdg-desktop-portal-gtk
+i xdg-desktop-portal-gnome
+i xdg-desktop-portal-wlr
+pacman -Qs xdg-desktop-portal
+i xdp-wlr
+r hyprland
+r illogical-impulse-hyprland
+r hyprland
+ls
+yay
+asddsklfjsg
+fastfetch 
+pi archinstall
+ls
+mkdir amaze-arch
+cd amaze-arch/
+ls
+systemctl --user status xdg-desktop-portal-gnome.service
+systemctl --user enable xdg-desktop-portal-gnome.service
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-wlr pipewire wireplumber --needed
+systemctl --user stop xdg-desktop-portal.service<\n>systemctl --user stop xdg-desktop-portal-gnome.service<\n>systemctl --user stop xdg-desktop-portal-wlr.service<\n><\n>systemctl --user start xdg-desktop-portal.service
+sudo pacman -R xdg-desktop-portal-gnome
+/usr/lib/xdg-desktop-portal --replace --verbose
+ps aux | grep xdg-desktop-portal
+i xdg-desktop-portal-gnome
+r xdg-desktop-portal-gnome
+n ~/.config/xdg-desktop-portal/portals.conf
+systemctl --user status xdg-desktop-portal-gnome
+i xdg-desktop-portal-gnome
+systemctl --user status xdg-desktop-portal-gtk
+systemctl --user status xdg-desktop-portal-gnome
+systemctl --user status xdg-desktop-portal-gtk
+systemctl --user restart xdg-desktop-portal-gtk
+systemctl --user status xdg-desktop-portal-gtk
+systemctl --user status xdg-desktop-portal-gnome
+i gnome
+systemctl --user status xdg-desktop-portal-gnome
+systemctl status niri
+systemctl enable niri
+systemctl --user status graphical-session.target
+systemctl --user enable graphical-session.target
+systemctl --user start graphical-session.target
+n ~/.config/systemd/user/niri.service
+systemctl --user daemon-reload
+systemctl --user enable niri.service
+systemctl --user start niri.service
+systemctl --user status niri.service
+n ~/.config/xdg-desktop-portal/portals.conf
+systemctl start niri
+niri-session 
+sudo systemctl start niri
+systemctl start niri
+rm -rf ~/.local/share/xdg-desktop-portal/
+systemctl --user restart xdg-desktop-portal.service
+sudo pacman -S grim slurp wf-recorder --needed
+i mesa vulkan-radeon
+./apps/nekoray/nekobox &
+pacman -Qq > all-packages.txt
+sudo shutdown now
+niri-session 
+i qbittorrent
+i anime-cli
+s anime
+s anime-cli
+s ani-cli
+i ani-cli
+ani-cli
+pi anicli-ru
+anicli-ru
+cd ~/.config/mozilla/firefox/7lo32gnv.default-release/chrome/
+ls
+n userChrome.css
+cd ~/.config/mozilla/firefox/7lo32gnv.default-release/chrome/
+ды
+ls
+n userChrome.css
+killall firefox
+ls
+cd amaze-arch/
+ls
+n main.py
+ls
+cd ..
+rm -rf amaze-arch/
+ls
+echo "# amaze-arch" >> README.md<\n>git init<\n>git add README.md<\n>git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:S1rEx1/amaze-arch.git<\n>git push -u origin main
+ls
+rm -rf .git/
+ls
+mkdir amaze-arch
+cd amaze-arch/
+echo "# amaze-arch" >> README.md<\n>git init<\n>git add README.md<\n>git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:S1rEx1/amaze-arch.git<\n>git push -u origin main
+ls
+fish
+cd amaze-arch/
+ls
+touch packages.txt
+touch main.py
+ls
+nvtop
+btop
+btop --force-utf
+s balena-etcehr
+s balena-etcher
+i balena-etcher
+i balena-etcher-bin
+yay -S balena-etcher
+cd Downloads
+find ~/Downloads/*.iso
+cd Downloads
+fd *.iso
+find *.iso
+fd *.iso
+lsblk
+sudo umount sdd
+sudo umount sdd1
+cd Downloads/
+mv artix-base-openrc-20250407-x86_64.iso artix.iso
+ls
+find *.iso
+fd *.iso
+ды
+ls
+sudo dd if=artix.iso of=/dev/sdd bs=4M status=progress oflag=sync
+sync
+ls
+ls /
+lsblk
+ls
+cd amaze-arch/
+ls
+cd ..
+ls
+ls backup/
+lsblk
+sudo shutdown now
+systemctl status niri
+cd ~/.config/niri
+tree
+echo $XDG_SESSION_TYPE<\n>echo $WAYLAND_DISPLAY<\n>echo $XDG_CURRENT_DESKTOP
+fish
+n ~/.config/systemd/user/niri.service
+systemctl --user enable niri.service
+нфн
+yay
+i noctalia-shell
+yay -S noctalia-shell
+sudo reboot now
+i nautilis
+i nautilius
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-gnome nautilus<\n>systemctl --user restart xdg-desktop-portal.service
+systemctl --user restart xdg-desktop-portal.service
+i nautilus
+systemctl --user status xdg-desktop-portal.service<\n>systemctl --user status xdg-desktop-portal-gnome.service<\n>systemctl --user status xdg-desktop-portal-gtk.service<\n>journalctl --user -u xdg-desktop-portal.service -b --no-pager
+systemctl --user status xdg-desktop-portal.service | wl-copy<\n>systemctl --user status xdg-desktop-portal-gnome.service | wl-copy<\n>systemctl --user status xdg-desktop-portal-gtk.service | wl-copy<\n>journalctl --user -u xdg-desktop-portal.service -b --no-pager | wl-copy 
+n ~/.config/xdg-desktop-portal/portals.conf
+mkdir ~/.config/xdg-desktop-portal
+n ~/.config/xdg-desktop-portal/portals.conf
+systemctl --user restart xdg-desktop-portal
+r nautilus
+i xdg-desktop-portal-gtk
+r xdg-desktop-portal-gnome nautilus
+r xdg-desktop-portal-gnome nautilus gnome-session
+r xdg-desktop-portal-gnome nautilus gnome-session gnome
+r xdg-desktop-portal-gnome nautilus gnome-session gnome-shell gdm
+r xdg-desktop-portal-gnome nautilus gnome-session gnome-shell gdm gnome-control-center
+r nautilus
+n ~/.config/xdg-desktop-portal/portals.conf
+xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
+i xdg-desktop-portal-kde
+nano ~/.config/xdg-desktop-portal/portals.conf
+n ~/.config/xdg-desktop-portal/portals.conf
+systemctl --user stop xdg-desktop-portal-gnome xdg-desktop-portal-gtk<\n>systemctl --user restart xdg-desktop-portal
+n ~/.config/niri/rules/wrules.kdl
+niri validate
+n ~/.config/niri/rules/wrules.kdl
+n ~/.config/niri/config.kdl
+niri validate
+n ~/.config/niri/config.kdl
+qt6ct
+mkdir ~/.config/environment.d
+nano ~/.config/environment.d/qt-theme.conf
+n ~/.config/nushell/config.nu
+nano ~/.config/environment.d/qt-theme.conf
+n ~/.config/nushell/config.nu
+nano ~/.config/environment.d/qt-theme.conf
+qt6ct
+QT_QPA_PLATFORMTHEME=qt6ct qt6ct
+ls /etc/environment
+n /etc/environment
+sudo nvim /etc/environment
+qt6ct
+sudo nvim /etc/environment
+qt6ct
+./apps/nekoray/nekobox &
+cd ~/backup/crosshair/
+ls
+cargo build --release
+cargo run --release
+cargo run --release --dot
+cargo run --release -- --dot
+cargo run --release
+./apps/nekoray/nekobox &
+cd ~/amaze-arch/
+slk
+ls
+n packages.txt
+mkdir rust
+cd rust/
+ls
+cargo init
+ls
+cd src/
+ls
+n main.rs
+ls
+cd ..
+ls
+cargo -v
+cargo --version
+ls
+cargo run --release
+cd src/
+rustc
+rustc main.rs
+ls
+./main
+ls
+ls | where name 
+ls
+ls | name
+cd ..
+ls
+cd ..
+rm -rf rust
+cargo new rust_learning
+cd rust_learning/
+n main.rs
+cd ..
+ls
+cd sirex/
+ls
+cd rust_learning/
+ls
+cd src/
+ls
+ls
+cargo run
+ls
+ls target/
+ls src/
+ls target/debug/
+n ~/.config/nvim/lua/plugins/treesitter.lua
+exit
+cargo run
+killall vesktop
+killall discord
+cargo run
+zellij 
+cd
+cd rust_learning/
+ls
+cd ~/.config/zellij/
+ls
+n config.kdl
+fastfetch 
+fetchit 
+cd ..
+ls
+cd ~/rust_learning/
+ls
+cargo run
+yay
+zellij
+zellij main
+zellij --help
+ls
+cd niri/
+ls
+git clone https://github.com/yourusername/minecraft-ddos-tool-v2.git<\n>cd minecraft-ddos-tool-v2
+git clone https://github.com/minecraftbooter/minecraft-ddos
+cd minecraft-ddos/
+ls
+python mcddosv2.py
+pi colorama
+python mcddosv2.py
+cargo run
+ping internium.polit.army
+cargo run
+n settings/settings.kdl
+cd ~/.config/nvim
+cargo run
+lsblk
+ls
+cargo run
+ls
+rm -rf minecraft-ddos/
+ls
+clear
+ls
+cd rust_learning/
+ls
+cd rust_learning/
+cargo run
+rustup doc
+i rustup
+yay -S rustup
+rust doc
+rustdoc 
+cargo run
+mpd
+killall mpd
+cargo run
+cd ..
+ls
+cargo new guessing_game
+cd guessing_game/
+ls
+n src/main.rs
+cd ..
+cd guessing_game/
+cd src/
+n Cargo.toml
+cargo run
+sudo pacman -S pipewire wireplumber xdg-desktop-portal xdg-desktop-portal-gnome xdg-desktop-portal-gtk --needed
+n ~/.config/xdg-desktop-portal/portals.conf
+n ~/.config/niri/config.kdl
+systemctl --user status xdg-desktop-portal
+killall vesktop
+dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=niri<\n>systemctl --user restart xdg-desktop-portal
+mv ~/.config/xdg-desktop-portal/portals.conf ~/.config/xdg-desktop-portal/niri-portals.conf
+n ~/.config/xdg-desktop-portal/niri-portals.conf
+n /etc/environment
+systemctl --user stop xdg-desktop-portal xdg-desktop-portal-gnome xdg-desktop-portal-gtk && systemctl --user start xdg-desktop-portal
+sudo pacman -S xdg-desktop-portal-wlr
+killall -e xdg-desktop-portal-gnome xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-desktop-portal && /usr/lib/xdg-desktop-portal &
+killall obs-studio
+sudo pacman -S ashpd-demo
+sudo pacman -S ashpd
+s ashpd
+i ashpd-demo
+i ashpd-demo-git
+obs
+vesktop --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-features=WebRTCPipeWireCapturer
+n run_vesktop.sh
+bash run_vesktop.sh
+n ~/.config/systemd/user/niri.service
+n ~/.config/niri/config.kdl
+systemctl --user daemon-reload
+vesktop
+n ~/.config/niri/config.kdl
+ls
+cd ~/.config/niri
+tree
+ls
+clear
+zellij -a main
+zellij -s main
+ls
+fetchit 
+s vesktop
+ping internium.polit.army
+n ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu
+zellij -s main
+cargo run
+./apps/nekoray/nekobox &
+cd backup/crosshair/
+cargo run
+./apps/nekoray/nekobox &
+cargo run
+rustc --explain E030
+ls
+n Cargo.toml
+cargo doc --open
+cargo run
+ping 1.1.1.1
+./apps/nekoray/nekobox &
+ssh-keygen -t ed25519 -C "amenhotepyous@gmail.com" -f "$env:USERPROFILE\.ssh\id_ed25519_vps"
+ssh-keygen -t ed25519 -C "amenhotepyous@gmail.com" -f "$env:USERPROFILE/.ssh/id_ed25519_vps"
+ssh-keygen -t ed25519 -C "amenhotepyous@gmail.com" -f "~/.ssh/id_ed25519_vps"
+ssh-keygen -t ed25519 -C "amenhotepyous@gmail.com" -f ".ssh/id_ed25519_vps"
+n .ssh/id_ed25519_vps.pub
+ssh root@144.31.113.234
+rm .ssh/known_hosts
+ssh root@144.31.113.234
+cd .ssh/
+ls
+n config
+ssh vps
+n config
+ping iusearchbtw.ru
+ping -c 3 iusearchbtw.ru
+ping iusearchbtw.ru
+ping panel.iusearchbtw.ru
+ping iusearchbtw.ru
+./apps/nekoray/nekobox &
+ping panel.iusearchbtw.ru
+ping panel.iusearchbtw.ru:20892
+ping panel.iusearchbtw.ru
+i koala-clash
+./apps/nekoray/nekobox &
+ssh -v root@144.31.113.234
+killall AmneziaVPN
+zellij -s main
+ls
+cd backup/crosshair/
+ls
+cargo run
+n src/main.rs
+cd src/
+rustc test.rs
+./test
+rustc test.rs
+./test
+rustc test.rs && ./test
+rustc test.rs and ./test
+rustc test.rs;./test
+rustc test.rs and ./test
+rustc test.rs;./test
+cargo install rustlings
+rustlings init
+n ~/.config/nushell/config.nu
+rustlings init
+cd rustlings/
+ls
+cd rustlings/
+cd ~/rustlings/
+cd solutions/00_intro/
+ls
+n intro1.rs
+cd ..
+ls
+cd ..
+ls
+cd exercises/00_intro/
+n
+ls
+cd ..
+ls
+cd 01_variables/
+ls
+rustlings
+n variables1.rs
+cd ..
+ls
+cd 02_functions/
+n functions1.rs
+..
+cd 03_if/
+ls ~/.config/autostart/
+cd ~/.config/autostart/
+rm lunarclient.desktop
+n Happ.desktop
+cp /usr/share/applications/steam.desktop .
+ls
+steam -silent %U
+n steam.desktop
+cd backup/crosshair/
+cargo run
+zj
+n ~/.config/nushell/config.nu
+ls
+cd exercises/03_if/if2
+cd exercises/03_if/
+zj a main
+cd ~/rust_learning/
+ls
+cd 
+ls
+cargo new rust123
+ls
+cd rust123/
+ls
+n Cargo.toml
+ls src/
+cargo run
+rustc test.rs
+rustc src/main.rs
+cd src/
+ls
+cd ..
+ls
+./main
+ls
+rm main
+ls
+cargo run
+cargo doc --open
+cd rust_learning/
+cargo doc --open
+cargo run
+ls && ls
+ls | grep
+ls | grep ff
+wlogout
+git clone https://github.com/rust-lang/book
+cd book/
+ls
+cd src/
+ls
+cd ..
+ls
+cd second-edition/
+ls
+i mdbook
+$ mdbook build
+ls
+cd book/
+ls
+mdbook build
+firefox book/index.html   
+800+1000
+=800+1000
+rmpc
+mpd
+mpd play
+mpd play/pause
+mpd --help
+obsidian src/
+s factorio
+i factorio
+./apps/nekoray/nekobox &
+cargo run ./backup/crosshair/
+cd backup/crosshair/
+cargo run
+crossover-overlay 
+crossoverlay 
+pacman -Qs ttf-jetbrains-mono-nerd
+s gnome-boxes
+i gnome-boxes
+pacman -Sy gnome-boxes
+sudo pacman -Sy
+pacman -Sy gnome-boxes
+sudo pacman -Sy gnome-boxes
+free -h
+lsblk
+ls
+n config.kdl
+doas pacman -Syu
+ls
+cd ..
+ls
+cd rustlings/
+ls
+cargo run
+cargo run --bin
+cargo run --release
+sudo pacman -Syu
+ls
+sl
+cd exercises/03_if/
+n
+cd ../../solutions/03_if/
+n if2.rs
+n if1.rs
+cd
+ls
+mkdir amarch
+cd amarch/
+cd ..
+rm -rf amaze-arch/
+cd amarch/
+ls
+cacargo init
+cargo init
+ls
+n Cargo.toml
+git init
+git add README.md<\n>git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:Vindex-dev/amarch.git<\n>git push -u origin main
+echo "# amarch" >> README.md
+git add README.md<\n>git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:Vindex-dev/amarch.git<\n>git push -u origin main
+touch README.md
+echo "# amarch" >> README.md
+ls
+git add README.md<\n>git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:Vindex-dev/amarch.git<\n>git push -u origin main
+ls
+ga
+gc "asdasdasd"
+gp
+ls
+cd src/
+ls
+touch disk.rs exec.rs input.rs plan.rs
+n main.rs
+cargo run
+cargo doc --open
+дщы
+ls
+rm -f *
+ls
+n main.rs
+cd ..
+ls
+cd src/
+ls
+n main.rs
+ls
+id -u
+n main.rs
+rustc main.rs
+ls
+./main
+n main.rs
+rustc main.rs;./main
+ls
+n main.rs
+rustc main.rs;./main
+ls
+ls /usr/bin
+n main.rs
+rustc main.rs;./main
+n main.rs
+rustc main.rs;./main
+cargo doc --open
+n main.rs
+cargo doc --open
+rustc main.rs;./main
+n main.rs
+rustc main.rs;./main
+n main.rs
+rustc main.rs;./main
+n main.rs
+rustc main.rs;./main
+n main.rs
+rustc main.rs;./main
+n main.rs
+rustc main.rs;./main
+n main.rs
+rustc main.rs;./main
+n main.rs
+rustc main.rs;./main
+r ls
+s ls
+sudo pacman -R ls
+sudo pacman -R gnu
+n main.rs
+rustc main.rs;./main
+n main.rs
+rustc main.rs;./main
+n main.rs
+rustc main.rs;./main
+fetchit 
+cd /etc/pacman.d/
+ls
+n mirrorlist
+n
+ls
+cd guessing_game/
+ls
+n
+ls
+n
+ls
+n suck.rs
+i rustup cargo
+n ~/.config/nushell/config.nu
+sudo pacman -S rust cargo
+sudo pacman -S cargo
+ls
+cd amarch/
+ls
+n Cargo.toml
+n src/main.rs
+cd ..
+ls
+cd amarch/
+ls
+cargo run
+n src/main.rs
+cd amarch/
+ls
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+yay
+ls | less
+n src/main.rs
+cargo run
+ls
+cd amarch/
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+n Cargo.toml
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+ls
+cd amarch/
+ls
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+ls
+n src/main.rs
+gs
+git status
+ga
+gc "simple tui"
+gp
+git push
+git push -u origin main
+n src/main.rs
+n ~/.config/alacritty/alacritty.toml
+ls
+n src/main.rs
+cargo run
+ls
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+ls
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+git add .
+git commit -m "added username && hostname"
+git push -u origin main
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+git add .
+git commit -m "small fixes"
+git push -u origin main
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+git add .
+git commit -m "pwd"
+git push -u origin main
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+git add .
+git commit -m "pwd validation"
+git push -u origin main
+n src/main.rs
+cargo run
+n src/config.rs
+n src/screen.rs
+n src/main_menu.rs
+cargo run
+n src/main_menu.rs
+cargo run
+ды
+ls
+n src/wifi.rs
+cargo run
+n src/config.rs
+n src/screen.rs
+n src/main_menu.rs
+n src/main.rs
+cargo run
+git add .
+git commit -m "wifi"
+git push -u origin main
+cargo run
+n src/main.rs
+cargo run
+qwen
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/wifi.rs
+cargo run
+n src/main_menu.rs
+cargo run
+git add .
+git commit -m "wifi2"
+git push -u origin main
+gp
+git push
+ls
+git push
+cd amarch/
+gp
+gs
+git status
+git push
+ls
+n src/config.rs
+ls
+n src/screen.rs
+cargo run
+n src/wifi.rs
+cargo run
+n src/main_menu.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cd amarch/
+ls
+cd amarch/
+ls
+cd src/
+ls
+n main.rs
+n main_menu.rs
+cd ..
+cd amarch/src/
+ls
+n main.rs
+n config.rs
+n screen.rs
+n main.rs
+n main_menu.rs
+n wifi.rs
+cd ..
+iwctl scan
+cargo run
+ls
+n src/config.rs
+n src/main_menu.rs
+cd amarch/
+cargo run
+tree
+ls
+cd src/
+ls
+n 
+n config.rs
+n main_menu.rs
+n wifi.rs
+n config.rs
+ls
+tree
+ls
+n screen.rs
+n main_menu.rs
+n main.rs
+n screen.rs
+cargo run
+n screen.rs
+cargo run
+n screen.rs
+ls
+git status
+ga
+gc "iusearchbtw"
+gp
+n config.rs
+ls
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+n main.rs
+ls
+n screen.rs
+n main_menu.rs
+n screen.rs
+cargo run
+n main_menu.rs
+cargo run
+n config.rs
+cargo run
+n config.rs
+ls
+n timezones.rs
+n config.rs
+n screen.rs
+n timezones.rs
+n main_menu.rs
+cargo run
+n screen.rs
+n wifi.rs
+n main.rs
+n timezones.rs
+n main.rs
+n timezones.rs
+n main.rs
+cargo run
+n timezones.rs
+cargo run
+n timezones.rs
+cargo run
+n timezones.rs
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+find /usr/share/zoneinfo -type f | sed 's|/usr/share/zoneinfo/||' | sort
+n timezones.rs
+ls
+mkdir scripts
+cd scripts/
+cd ..
+ls
+cd src/
+gs
+git status
+git add .
+gc "tz basics"
+gp
+ls
+rm -rf scripts/
+cd ..
+ls
+mkdir scripts
+cd scripts/
+ls
+n disk_setup.sh
+lsblk
+lsblk -d -n -o NAME,SIZE,TYPE --sort SIZE
+lsblk -d -n -o NAME,SIZE --sort SIZE
+n disk_setup.sh
+chmod +x disk_setup.sh
+./disk_setup.sh
+n disk_setup.sh
+bash
+n disk_setup.sh
+bash ./disk_setup.sh
+o /tmp/amarch_disk_status.log
+n disk_setup.sh
+./disk_setup.sh
+n disk_setup.sh
+./disk_setup.sh
+n disk_setup.sh
+./disk_setup.sh
+bash
+n disk_setup.sh
+./disk_setup.sh
+cat /tmp/amarch_disk_list.txt
+cat /tmp/amarch_disk_status.log
+n disk_setup.sh
+./disk_setup.sh
+cat /tmp/amarch_disk_status.log
+cat /tmp/amarch_disk_list.txt
+n disk_setup.sh
+./disk_setup.sh
+n disk_setup.sh
+lsblk
+n disk_setup.sh
+./disk_setup.sh
+n disk_setup.sh
+./disk_setup.sh
+n disk_setup.sh
+./disk_setup.sh
+n disk_setup.sh
+ga
+gs
+gc "disk sotring"
+gp
+cd ..
+ls
+cd src/
+ls
+n main_menu.rs
+git pull
+n main_menu.rs
+ls
+n disk_menu.rs
+cd ..
+ls
+cd scripts/
+n disk_list.sh
+chmod +x disk_list.sh
+./disk_list.sh
+ls
+rm -f disk_setup.sh
+n disk_apply.sh
+ls
+n disk_list.sh
+ls
+n disk_list.sh
+cd ..
+cd src
+ls
+n disk_menu.rs
+cargo run
+cd amarch/
+git status
+cd src
+ls
+n timezones.rs
+n disk_menu.rs
+n config.rs
+cd ..
+cargo run
+n src
+n src/screen.rs
+cd src/
+ls
+n main.rs
+n main_menu.rs
+cd ..
+cd amarch/
+cd src/
+ls
+ga
+gc "disks"
+gp
+cd ..
+ls
+n Cargo.toml
+n src/config.rs
+n src/disk_menu.rs
+cd ..
+cargo run
+cd amarch/
+cargo run
+n src/config.rs
+cargo run
+n src/config.rs
+cargo run
+n src/disk_menu.rs
+cargo run
+n src/disk_menu.rs
+cargo run
+ls
+cd src/
+n disk_menu.rs
+cd ..
+cd amarch/
+cd scripts/
+ls
+ls -la
+./disk_list.sh
+cd ..
+cargo run
+n src
+n src/config.rs
+cargo run
+chmod +x scripts/disk_list.sh
+ls scripts/
+ls -l scripts/disk_list.sh
+./scripts/disk_list.sh
+pwd
+n src/disk_menu.rs
+cargo run
+n src/disk_menu.rs
+cargo run
+n src/disk_menu.rs
+cargo run
+ls
+n src/config.rs
+cargo run
+ls
+n src/disk_menu.rs
+cargo run
+ga
+git status
+git commit -m "buggy disk partitioning"
+git push
+cd amarch/
+git pull
+cargo run
+qwen
+cargo run
+git add .
+gc "FUCK MY ASS"
+git push
+cargo run
+ls
+;
+;s
+ls
+cd amarch/
+ls
+rm -rf .qwen
+ls
+ls -a
+git add .
+git commit -m "qwen kys"
+git push
+cd backup/crosshair/
+cargo run
+cd amarch/
+tree
+cd src/
+ls
+n main.rs
+./apps/nekoray/nekobox &
+archiso
+i archiso
+ls /usr/share/archiso/configs/releng/
+cp -r /usr/share/archiso/configs/releng myiso
+ls
+cd myiso/
+ls
+cd /etc
+ls
+n pacman.conf
+sudo nvim pacman.conf
+sudo pacman -Syu
+sudo nvim pacman.conf
+sudo pacman -Syu
+cd backup/ascii_shader/
+yazu
+cd amarch/
+ls
+cd src/
+ls
+n disk_menu.rs
+qwen
+cd amarch/
+cargo run
+ls
+n install_config.json
+cargo run
+ls
+n install_config.json
+cargo run
+n install_config.json
+ls
+cd src/
+ls
+n config.rs
+n disk_menu.rs
+n main_menu.rs
+n screen.rs
+n timezones.rs
+n wifi.rs
+ga
+git commit -m "FEAT: json config save"
+gp
+cargo run
+n main_menu.rs
+n config.rs
+n main.rs
+ga
+cd ..
+ls
+n README.md
+ga
+gc "readme"
+gp
+cargo run
+cd amarch/
+ls
+ls scripts/
+ls target/
+cargo build
+cargo build --release
+ls target/
+cd target/release/
+ls
+./amarch
+cd ..
+ls
+n Cargo.toml
+ga
+gc "sry"
+gp
+git pull
+git pull --force
+git config pull.rebase true
+git pull
+git push
+ls
+rm -f install_config.json
+ga
+gc "ouch"
+gp
+cd backup/crosshair/
+cargo run
+cd 
+ls
+cd amarch/
+ls
+cd src
+ls
+n wifi.rs
+cd ..
+cargo run
+ls
+cd amarch/
+ls
+cd amarch/
+ls
+cd src
+ls
+n config.rs
+ls
+cd ..
+cargo run
+n timezones.rs
+cargo run
+ls
+n install_config.json
+n main_menu.rs
+cd ..
+cargo run
+ls
+cd src/
+ls
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+n main_menu.rs
+cargo run
+ls
+cd ..
+ls
+cargo run
+n src/main_menu.rs
+ga
+gc "timezones and validation"
+gp
+localectl list-keymaps
+cargo run
+ls
+cd ..
+cd scripts/
+n install.py
+pi subproccess
+pi subprocess
+n install.py
+ls
+cd ..
+ga
+gc "asdasdasd"
+gp
+cd ..
+cargo build --release
+cd src
+cd amarch/
+rustup target add x86_64-unknown-linux-musl
+i rustup
+sudo pacman -S rustup
+rustup target add x86_64-unknown-linux-musl
+pacman -S nysk
+sudo pacman -S musl
+cargo build --release --target x86_64-unknown-linux-musl
+rustup target add x86_64-unknown-linux-musl
+ls
+rustup default stable
+rustup target add x86_64-unknown-linux-musl
+cargo build --release --target x86_64-unknown-linux-musl
+ls
+ls target/
+mv target/x86_64-unknown-linux-musl/ .
+ls
+mv x86_64-unknown-linux-musl/ VindexOS
+ls
+cd VindexOS/
+ls
+cd release/
+ls
+./VindexOS
+ls
+cd ..
+ls
+rm -rf VindexOS/
+ls
+ды
+ls
+cd myiso/
+ls
+n \
+ls
+n packages.x86_64
+cd airootfs/
+;s
+ls
+s arch
+ls
+cd etc
+ls
+n locale.conf
+n resolv.conf
+ls
+n asd.rs
+rustc 
+rustc asd.rs
+n asd.rs
+rustc asd.rs
+./asd
+rustc asd.rs; ./asd
+cd ssh
+ls
+git status
+ga
+gc "release ig"
+gp
+cd backup/crosshair/
+./apps/nekoray/nekobox &
+sysctl net.ipv4.tcp_congestion_control
+iwconfig | grep -i power<\n># или для NetworkManager:<\n>cat /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf 2>/dev/null
+ip link show | grep mtu<\n>
+ping -M do -s 1500 google.com 
+ethtool enp11s0 | grep -E "Wake-on|Speed|Link"
+sudo ethtool enp11s0 | grep -E "Wake-on|Speed|Link"
+mtr -c 30 1.1.1.1
+i mtr
+mtr -c 30 1.1.1.1
+sudo pacman -S tc
+i tc
+tc qdisc show dev enp11s0
+n /etc/resolv.conf
+sudo nvim /etc/resolv.conf
+mtr -c 30 1.1.1.1
+ping -c 5 192.168.0.1 
+./apps/nekoray/nekobox &
+ping 1.1.1.1
+ip link show
+ping google.com
+ping 1.1.1.1
+cd backup/crosshair/
+ls
+claude --permission-mode bypassPermissions
+cd backup/crosshair/
+waybar
+i waybar
+waybar
+cd ~/.config/
+mkdir waybar
+waybar
+waybar -c ~/.config/waybar/config.jsonc
+waybar -c ~/.config/waybar/
+waybar -c ~/.config/waybar/config.jsonc
+n config.jsonc
+ls
+cd waybar/
+ls
+n config.jsonc
+n style.css
+waybar -c ~/.config/waybar/config.jsonc
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n style.css
+n config.jsonc
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n style.css
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n config.jsonc
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css --log-level=debug
+niri --version<\n>waybar --version
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css --log-level=debug
+n style.css
+btop
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css --log-level=debug
+i genact
+genact
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css --log-level=debug
+cd backup/crosshair/
+cd amarch/
+ls
+cargo run
+sudo pacman -Syu
+cd amarch/
+ls
+cd src
+ls
+n wifi.rs
+cd ..
+cargo run
+sudo pacman -Syu
+s st
+cd amarch/
+ls
+cd VindexOS/
+ls
+free
+free -h
+free --help
+free --giga
+free --gigi
+free --gibi
+AyuGram 
+cd backup/crosshair/
+ls
+rofi
+fuzzel
+fuzzel -d
+fuzzel
+fastfetch 
+n wifi.rs
+cd VindexOS/
+ls
+cd src/
+ls
+cd ~/.config/niri
+cd devices/
+ls
+cd ~/.config/fuzzel/
+ls
+n fuzzel.ini
+cd ..
+ls
+i wlogout
+cd ~/.config/wlogout/
+ls
+n layout
+i wl-clipboard
+i rofi
+rofi
+rofi -show run
+i Cliphist
+i cliphist
+cliphist
+i wofi
+wofi
+wofi --show
+wofi --mode 
+wofi -mode 
+wofi run
+cd ~/.config/rofi
+git clone https://github.com/anhsirk0/rofi-config ~/.config/rofi
+rofi -show run
+cd ~/.config/rofi
+ls
+cd ..
+rm -rf rofi/*
+cd rofi/
+ls
+n config.rasi
+rofi -show run
+n config.rasi
+rofi -show run
+n config.rasi
+rofi -show run
+rofi
+n config.rasi
+rofi -show run
+rofi -show drun
+n config.rasi
+rofi -show drun
+cd
+git clone https://github.com/adi1090x/rofi --depth=1
+ls
+cd rofi/
+ls
+./setup.sh
+cd
+cd ~/.config/rofi
+ls
+rofi -show drun
+i xdg-user-dirs
+xdg-user-dirs update
+xdg-user-dirs-update
+n config.rasi
+cd 
+ls
+cd rofi/
+lws
+ls
+cd
+rm -rf rofi/*
+ls rofi/
+git clone https://github.com/adi1090x/rofi --depth=1
+rm -rf rofi/
+cd ~/.config
+git clone https://github.com/adi1090x/rofi --depth=1
+rm -rf rofi/
+cd rofi/files/
+ls
+cp -r colors config.rasi launchers ~/.config/rofi
+mkdir ~/.config/rofi
+cp -r colors config.rasi launchers ~/.config/rofi
+rofi -show drun
+cd ~/.config/rofi
+ls
+n config.rasi
+ls
+tree
+clear
+ls 
+n config.rasi
+cd launchers/type-4/
+n style-10.rasi
+cd ..
+ls
+rofi -show drun
+n config.rasi
+ls
+cd launchers/
+cd type-4/
+ls
+n launcher.sh
+./launcher.sh
+n launcher.sh
+./launcher.sh
+n launcher.sh
+./launcher.sh
+n launcher.sh
+./launcher.sh
+n style-7.rasi
+cd backup/crosshair/
+ls
+n asd.rs
+cd VindexOS/
+ls
+cd Documents/
+ls
+cd
+ls
+mkdir repos
+ls
+mv VindexOS/ repos/
+ls repos/
+ls
+rm -rf guessing_game/
+cd myiso/
+ls
+free
+ls
+n grub/grub.cfg
+ls
+n packages.x86_64
+cd
+ls
+n asd.rs
+rustc asd.rs; ./asd
+cd ~/.config/niri/
+ls
+cd settings/
+ls
+n startups.kdl
+rofi -show drun
+cd ~/.config/rofi
+ls
+cd launchers/
+ls
+cd type-4/
+ls
+./launcher.sh
+cd ..
+cd type-1/
+ls
+./launcher.sh
+cd ~/.config/rofi/launchers/type-1/
+./launcher.sh
+n launcher.sh
+n style-5.rasi
+cd ..
+ls
+cd rofi/
+ls
+rofi -show drun
+cd ~/.config/rofi/
+ls
+n config.rasi
+cd
+cd shared/
+ls
+rofi -show drun
+n colors.rasi
+n
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css --log-level=debug
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css --log-level=debug &
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css --log-level=debug
+ls
+s telegram
+cd ~/.config/niri/devices/
+ls
+cd ..
+cd settings/
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n ~/.config/niri/devices/keybinds.kdl
+swww
+i swaybg
+swaybg -i `Pictures/Wallpapers/Gruvbox Retro/01. Gruvbox Retro.jpg`
+swaybg -i `Pictures/Wallpapers/Gruvbox Retro/02. Gruvbox Retro.jpg`
+swaybg -i `Pictures/Wallpapers/Gruvbox Retro/02. Gruvbox Retro.png`
+swaybg -i `Pictures/Wallpapers/Gruvbox Retro/03. Gruvbox Retro.jpg`
+swaybg -i `Pictures/Wallpapers/Gruvbox Retro/04. Gruvbox Retro.png`
+swaybg -i `Pictures/Wallpapers/Gruvbox Retro/05. Gruvbox Retro.png`
+cd ~/.config/niri/settings/
+cd ~/.config/waybar/
+ls
+n config.jsonc
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n ~/.config/waybar/config.jsonc
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+ls
+ls]
+ls
+./apps/nekoray/nekobox &
+niri validate
+wpctl
+pipewire 
+mkdir lrng
+cd lrng/
+cargo init
+cd src/
+n main.rs
+cd ..
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+ls
+lsblk
+n ~/.config/niri/settings/settings.kdl
+n ~/.config/niri/devices/keybinds.kdl
+niri validate
+n ~/.config/niri/devices/keybinds.kdl
+niri validate
+n ~/.config/niri/devices/keybinds.kdl
+cd lrng/
+ls
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+ls
+rm -rf Cargo.*
+ls
+rm -rf target/
+ls
+cargo run
+ls
+mv src/*
+mv src/* .
+ls
+rm -rf src/ target/
+ls
+mv main.rs calculator.rs
+ls
+ls -la
+rm -rf .git .gitignore
+ls
+la
+ls -la
+rm -rf target/
+ls
+n calculator.rs
+rustc calculator.rs; ./calculator; rm -f calculator
+ls
+sudo pacman -S cliphist wl-clipboard
+n ~/.config/niri/settings/startups.kdl
+niri msg reload
+pipesz
+fetchit 
+clear; fetchit
+cd lrng/
+ls
+n converter.rs
+ls
+dc
+cd
+cd ~/.config/waybar/
+clear
+l
+ls
+cd lrng/
+ls
+n casino.rs
+rustc casino.rs;./casino;rm -f casino
+rustc casino.rs;./casino;rm
+rustc casino.rs;./casino
+./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+34
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+fetchit 
+clear;fetchit 
+cd ~/.config/waybar/
+ls
+cd backup/crosshair/
+cargo run
+св
+cd
+cd lrng/
+ls
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+rustc casino.rs;./casino
+n casino.rs
+ls
+mkdir casino
+ls
+rm casino
+mkdir casino
+cd casino/
+cargo init
+ls
+n src/main.rs
+cd
+cd Videos/
+ls
+cd ..
+ls
+cd repos/
+ls
+cd VindexOS/
+ls
+n README.md
+cd src/
+ls
+ga
+git status
+n wifi.rs
+cd ..
+cargo run
+ls
+cd scripts/
+ls
+ды
+ls
+n install.py
+cd ..
+ls
+cd repos/VindexOS/
+ls
+cd scripts/
+ls
+sudo pacman -S virtualbox
+sudo /usr/sbin/virtualbox
+/usr/sbin/vboxconfig
+/usr/sbin/virtualbox
+sudo pacman -S virtualbox-host-modules-arch
+sudo pacman -S virtualbox-host-modules-lts
+sudo pacman -S virtualbox-host-modules-arch
+n install.py
+cd
+cd lrng/
+ls
+cd casino/
+ls
+cd src/
+ls
+n main.rs
+ls
+n main.rs
+cd ..
+cargo run
+n src/main.rs
+cargo run
+n src/main.rs
+cargo run
+cd ~/.config/tmux/
+ls
+n tmux.conf
+m
+ssh vps
+clear
+clear;fetchit 
+exit
+exit
+cd ~/.config/tmux/
+tmux
+tmux a 2
+tmux a
+lslbk
+lsblk
+tmux
+tmux ls
+tmux a poop-session
+tmux poop-session
+t
+ls
+fetchit 
+exit
+exit
+ls
+ls -a
+exit
+│exit
+exit
+cd backup/crosshair/
+ls
+tmux poop-session
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm<\n>
+ls ~/.tmux/
+exit
+ls ~/.tmux/plugins/
+n tmux.conf
+cd
+cd lrng/
+ls
+cd casino/
+ls
+cd src/
+cd lrng/casino/
+ls
+cargo check
+exit
+exit
+exit
+ls
+n main.rs
+n Cargo.toml
+cargo run
+rustc --explain E0308
+cargo run
+tmux a
+cd lrng/casino/
+ls
+cargo run
+n src/main.rs
+cargo run
+./apps/nekoray/nekobox &
+cargo run
+./apps/nekoray/nekobox &
+cd 
+cd backup/crosshair/
+cargo run
+cargo check
+ls
+cargo run
+exit
+cargo run
+cd ~/backup/crosshair/
+cargo run
+pw-top
+pavucontrol
+pactl list short sources<\n>pactl list short sinks
+pactl list short sources
+pactl list short sinks
+cd ..
+ls
+cargo new ratatui
+cd ratatui/
+ls
+cd ..
+cd ratatui/
+cargo generate ratatui/templates
+cargo install cargo-generate
+cargo generate ratatui/templates hello-world
+ls
+cd ratatui/
+ls
+cd ..
+ls
+ls -a
+rm -rf .git .gitignore Cargo.toml src/
+ls
+ls -a
+mv ratatui/* .
+ls
+rm -rf ratatui/
+ls
+cargo run
+ls
+n Cargo.toml
+n src/main.rs\
+./apps/nekoray/nekobox &
+fetchit 
+./apps/nekoray/nekobox &
+cargo run
+i portproton
+sudo pacman -S portproton
+s portproton
+cd backup/crosshair/
+ls
+cargo run
+tmux a
+tmux ls
+cd
+tmux ls
+cd lrng/
+ls
+rm -rf casino.rs
+ls
+cargo new tasklist
+ls
+cd tasklist/
+ls
+git status
+git clone https://github.com/HKUDS/DeepTutor.git
+cd DeepTutor/
+conda create -n deeptutor python=3.11 && conda activate deeptutor
+conda create -n deeptutor python=3.11;conda activate deeptutor
+i conda
+python -m venv .venv; source .venv/bin/activate
+python -m venv .venv;source .venv/bin/activate
+ls -a
+python -m venv .venv
+source .venv/bin/activate
+bash
+python scripts/start_tour.py
+fish
+ls
+pir
+python scripts/start_tour.py
+cd requirements/
+ls
+cd ..
+python scripts/start_tour.py
+cd requirements/
+ls
+pi server.txt
+pi -r server.txt
+ls
+pi -r math-animator.txt
+..
+ls
+python scripts/start_tour.py
+ls -a
+ls
+n .env
+python scripts/start_tour.py
+n .env
+python scripts/start_tour.py
+n .env
+python scripts/start_tour.py
+deeptutor chat
+exit
+deeptutor chat
+tutor
+ls
+deeptutor chat
+cd DeepTutor/
+ls
+python scripts/start_tour.py
+cd DeepTutor/
+cd web;npm run dev -- -p 3782
+npm start
+npm run dev -- -p 3782
+cd ..
+ls
+pip install -e ".[cli]"
+python -m deeptutor.api.run_server
+pip install -e ".[cli]" --break-system-packages
+deeptutor chat
+exit
+python scripts/start_tour.py
+deeptutor chat
+python -m deeptutor.api.run_server
+cd web/
+ls
+rm -rf package-lock.json
+npm install
+n package.json
+npm install
+npm run dev -- -p 3782
+bash
+python scripts/start_tour.py
+python -m deeptutor.api.run_server
+ls scripts/
+python scripts/start_web.py
+sudo kill -9 $(sudo lsof -t -i:8001)
+bash
+ls
+cd src/
+ls
+n main.rs
+св юю
+ды
+cd .
+ls
+cd ..
+ls
+n Cargo.toml
+cd src/
+ls
+cd lrng/
+cd tasklist/
+ls
+cargo run
+n Cargo.toml
+cargo run
+cd backup/crosshair/
+./apps/nekoray/nekobox &
+killall firefox
+cd lrng/
+ls
+cd tasklist/
+ls
+cd src/
+ls
+n main.rs
+cargo run
+n main.rs
+cd ~/.config/niri/settings/
+fetchit 
+./apps/nekoray/nekobox &
+killall firefox
+tmux a
+cd backup/crosshair/
+cargo run
+killall firefox
+yay
+tmux
+killall firefox
+s firefox
+s mango
+s mangowm
+i mangowm
+mango
+tmuxx
+cd ~/.config/tmux/
+ls
+n tmux.conf
+exit
+tmux
+cd ~/.config/tmux/
+exit
+tmux ls
+cd lrng/
+cd ratatui/
+cargo run
+n src/main.rs
+cd ..
+ls
+cd tasklist/
+ls
+cd lrng/tasklist/
+ls
+cargo run
+cd ~/.config/nvim
+ls
+cd lua/
+ls
+cd plugins/
+ls
+n rust.lua
+ls
+n rust.lua
+rustup component add rustfmt clippy rust-src
+nvim +MasonInstallAll +q
+n rust.lua\
+n rust.lua
+qwen
+cargo run
+n src/main.rs
+rustup component add rustfmt
+cargo install dprint
+cargo run
+ls
+n rust.lua
+dprint config init
+ls
+ls
+n rust.lua
+rm rust.lua
+n 
+rustup component add rustfmt clippy rust-src
+cd lrng/tasklist/
+ls
+n dprint.json
+cargo run
+cd src/
+ls
+n main.rs
+cargo run
+n src/main.rs
+pkill rust-analyzer
+n main.rs
+rustup update
+n main.rs
+cargo clean
+rm -rf ~/.cache/rust-analyzer<\n>rm -rf ~/.local/share/nvim/lsp_servers/rust-analyzer
+n
+git clone https://github.com/NvChad/starter ~/.config/nvim
+n
+cd lrng/tasklist/
+m
+n src/main.rs
+n
+nvim
+n src/main.rs
+cd ~/.config/nvim
+ls
+tree
+kiro-cli
+n ~/lrng/tasklist/src/main.rs
+ls
+./apps/nekoray/nekobox &
+cd lrng/tasklist/
+ls
+killall firefox
+mango
+mkdir ~/.config/mango
+cd ~/.config/mango/
+ls
+mango
+ls
+ls /etc/mango/config.conf
+cp /etc/mango/config.conf ~/.config/mango/config.conf
+ls
+mango
+AyuGram 
+yay -S rofi foot xdg-desktop-portal-wlr swaybg waybar wl-clip-persist cliphist wl-clipboard wlsunset xfce-polkit swaync pamixer wlr-dpms sway-audio-idle-inhibit-git swayidle dimland-git brightnessctl swayosd wlr-randr grim slurp satty swaylock-effects-git wlogout sox --needed
+fastfetch 
+clear
+swaybg -i `Pictures/Wallpapers/Gruvbox Retro/05. Gruvbox Retro.png`
+swaybg -i `Pictures/Wallpapers/Gruvbox Retro/05. Gruvbox Retro.png` &
+i xorg-xrdb
+i xwayland-satellite
+wlr-randr
+killall vesktop
+firefox
+cd ~/.config/fontconfig/
+ls
+n fonts.conf
+fc-match monospace
+fc-cache -fv
+mango
+n ~/.config/mango/config.conf
+n fonts.conf
+fc-cache -rv
+n fonts.conf
+ksdajfasdkjhf
+mango
+sdlfjkasljkfhasdf
+ls
+ks
+ls
+xrdb 
+gsettings set org.gnome.desktop.interface text-scaling-factor 1
+ls
+mango
+systemctl status niri
+systemctl status niri-session
+n ~/.config/nushell/config.nu
+sudo systemctl status niri
+sudo systemctl start niri
+ls ~/.config/systemd/user/niri.service
+n ~/.config/systemd/user/niri.service
+ls
+mango 
+ls
+gsettings set org.gnome.desktop.interface text-scaling-factor 1
+kill steam
+killall steam
+sudo reboot now
+sudo systemctl stop niri
+systemctl --user mask niri
+systemctl --user disable niri
+ls
+lsblk
+fastfetch 
+cd backup/crosshair/
+sudo shutdown now
+tmux ls
+exitr
+exit
+tmux 
+exit
+tmux
+n ~/.config/tmux/tmux.conf
+cd lrng/tasklist/
+ls
+cd src/
+ls
+n ~/.config/fontconfig/
+i waylock
+waylock
+waylock -h
+i swaylock
+swaylock 
+swaylock -h
+swaylock -c black
+swaylock -c #00000
+swaylock -c #0000
+sudo pacman -S fontconfig jetbrains-mono-fonts noto-fonts noto-fonts-emoji ttf-inter --needed
+fc-cache -fv
+tmux
+tmux a
+btop
+cd backup/crosshair/
+cargo run
+ls
+n ~/.config/waybar/config.jsonc
+n ~/.config/waybar/style.css
+cd ~/.config/mango/
+tmux
+n ~/.config/mango/config.conf
+n ~/.config/waybar/style.css
+mmsg -h
+mmsg
+mmsg -O
+mmsg -g -k
+n ~/.config/waybar/scripts/kb.sh
+mkdir ~/.config/waybar/scripts
+n ~/.config/waybar/scripts/kb.sh
+chmod +x ~/.config/waybar/scripts/kb.sh
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n ~/.config/waybar/config.jsonc
+swaybg -i `Pictures/Wallpapers/Gruvbox Retro/05. Gruvbox Retro.png` &
+fetchit 
+fastfetch 
+n ~/.config/mango/config.conf
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+fish
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+mmsg -T
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+./apps/nekoray/nekobox &
+n ~/.config/waybar/config.jsonc
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n ~/.config/waybar/style.css
+n ~/.config/mango/config.conf
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n ~/.config/waybar/config.jsonc
+n ~/.config/waybar/style.css
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n ~/.config/waybar/config.jsonc
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n ~/.config/waybar/style.css
+btop
+n ~/.config/waybar/style.css
+n ~/.config/waybar/config.jsonc
+fc-match -v "JetBrainsMono Nerd Font" | grep -E "file:|family:"
+n ~/.config/waybar/config.jsonc
+n ~/.config/waybar/style.css
+n ~/.config/waybar/style.css
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n ~/.config/waybar/config.jsonc
+xdg-desktop-portal-wlr
+i xdg-desktop-portal-wlr
+i pipewire-pulse
+/usr/lib/xdg-desktop-portal-wlr &
+i xdg-desktop-portal
+i xdg-desktop-portal-gtk
+dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+btop
+sudo reboot now
+systemctl --user enable --now pipewire pipewire-pulse wireplumber
+systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+n ~/.config/xdg-desktop-portal/wlr-portals.conf
+n ~/.config/xdg-desktop-portal/settings.conf
+systemctl --user restart xdg-desktop-portal<\n>systemctl --user restart xdg-desktop-portal-wlr<\n>systemctl --user restart xdg-desktop-portal-gtk
+busctl --user tree org.freedesktop.portal.Desktop
+systemctl --user status xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-gtk
+systemctl --user status xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-gtk | wl-copy
+echo $WAYLAND_DISPLAY
+bash
+# Останови сервисы, чтобы не мешали<\n>systemctl --user stop xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-desktop-portal<\n><\n># Запусти GTK-бэкенд вручную<\n>/usr/lib/xdg-desktop-portal-gtk
+systemctl --user show-environment | grep -E 'WAYLAND_DISPLAY|XDG_CURRENT_DESKTOP|XDG_SESSION_TYPE' | wl-copy 
+/usr/lib/xdg-desktop-portal-gtk
+cat ~/.config/xdg-desktop-portal/portals.conf
+cat > ~/.config/xdg-desktop-portal/portals.conf << 'EOF'<\n>[preferred]<\n>default=gtk<\n>org.freedesktop.impl.portal.ScreenCast=wlr<\n>org.freedesktop.impl.portal.Screenshot=wlr<\n>EOF
+fish
+ls
+n ~/.config/xdg-desktop-portal/portals.conf
+systemctl --user stop xdg-desktop-portal<\n>systemctl --user restart xdg-desktop-portal-wlr xdg-desktop-portal-gtk<\n>systemctl --user start xdg-desktop-portal<\n>sleep 2<\n>busctl --user tree org.freedesktop.portal.Desktop
+fetchit 
+slurp
+sudo shutdown now
+ls
+lsblk
+tmux
+cd ~/.config/waybar/
+ls
+sudo pkill waybar
+n config.jsonc
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+./apps/nekoray/nekobox &
+n style.css
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n config.jsonc
+n style.css
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css
+n config.jsonc
+zj
+n ~/.config/tmux/tmux.conf
+locale
+sudo nvim /etc/locale.gen
+sudo locale-gen
+locale
+echo 'LANG=en_US.UTF-8' | sudo tee /etc/locale.conf
+locale
+sudo reboot now
+tmux
+locale
+bash
+tmux
+locale
+export LANG=en_US.UTF-8<\n>export LC_ALL=en_US.UTF-8
+n ~/.profile
+$env.LANG = "en_US.UTF-8"<\n>$env.LC_ALL = "en_US.UTF-8"
+locale
+tmux
+btop
+n ~/.config/nushell/env.nu
+tmux ls
+fetchit 
+vainfo
+i vainfo
+ionice 
+sudo pacman -S libva-mesa-driver mesa-vdpau libva-utils --needed
+i vainfo
+vainfo
+sudo pacman -S vainfo
+s vainfo
+i libva-utils
+vainfo
+bash
+ls ~/.config/xdg-desktop-portal/portals.conf
+i gpu-screen-recorder-ui
+i gpu-screen-recorder
+tmux ~/.config/mango/
+cd ~/.config/mango/
+tmux]
+ls
+Error from element /GstPlayBin3:playbin3/GstURIDecodeBin3:uridecodebin3/GstURISourceBin:urisourcebin1/GstParseBin:parsebin1/GstQTDemux:qtdemux1: Could not demultiplex stream.<\n>This file contains no playable streams.<\n>../gstreamer/subprojects/gst-plugins-good/gst/isomp4/qtdemux.c(520): gst_qtdemux_post_no_playable_stream_error (): /GstPlayBin3:playbin3/GstURIDecodeBin3:uridecodebin3/GstURISourceBin:urisourcebin1/GstParseBin:parsebin1/GstQTDemux:qtdemux1:<\n>no known streams found
+cd ~/.config/rofi/
+ls
+n config.rasi
+n power-menu.sh
+chmod +x power-menu.sh
+./power-menu.sh
+ls
+n config.rasi
+nodejs
+node
+npm install -g omniroute@latest
+sudo npm install -g omniroute@latest
+npx omniroute reset-password
+omniroute 
+ls .env
+n .env
+$env.INITIAL_PASSWORD=1488
+$env.INITIAL_PASSWORD = '1488'
+npx omniroute reset-password
+sudo omniroute 
+omniroute --help
+ls ~/.omniroute/
+sudo omniroute 
+n ~/.omniroute/.env
+cd .omniroute/
+ls
+cd db_backups/
+ls
+cd
+sudo npm remove -g omniroute@latest
+sudo npm uninstall -g omniroute@latest
+sudo npm uninstall omniroute@latest
+omniroute 
+npm run uninstall:full
+sudo npm run uninstall:full
+sudo npm run uninstall
+sudo npm run uninstall omniroute
+sudo npm uninstall omniroute
+sudo npm uninstall 
+sudo npm uninstall omniroute
+omniroute 
+cd /usr/lib/node_modules/omniroute/
+ls
+cd .omniroute/
+ls
+ls -a
+sudo omniroute 
+n package.json
+ls
+cd app/
+ls
+cd ..
+ls
+find data/
+fd
+fd data/
+fd data
+fd settings.json
+n .env
+cd .omniroute/
+ls
+sudo omniroute 
+bash
+cd
+set
+sudo npm install -g omniroute@3.5.2
+npm fund
+omniroute 
+ls
+cd .omniroute/
+ls
+sudo omniroute 
+sudo npm install -g omniroute@3.5.3
+npm fund
+n .env
+cd
+sudo omniroute 
+npm uninstall -g omnioute
+sudo npm uninstall -g omnioute
+npm list -g --depth=0
+bash
+cd /usr/lib
+ls
+cd /usr/lib/node_modules/
+ls
+rm -rf omniroute/
+sudo rm -rf omniroute/
+omniroute 
+sudo npm install -g omniroute@3.5.3
+npm fund
+cd .omniroute/
+ls
+ls -a
+n .env
+sudo omniroute
+clause
+claude
+sudo npm install -g @anthropic-ai/claude-code
+kiro-cli
+claude
+cd
+ls
+&env
+n claude.sh
+chmod +x claude.sh
+n claude.sh
+chmod +x claude.sh
+./claude.sh
+n claude.sh
+./claude.sh
+ls
+./claude.sh
+cd ~/.config/
+cd niri
+cd
+cd ~/.config/
+cd mango/
+ls
+bash -c 'sel=$(printf "🔒 Lock\n⏻ Shutdown\n🔄 Reboot" | rofi -dmenu -p "Power" -i); case "$sel" in "🔒 Lock") loginctl lock-session;; "⏻ Shutdown") systemctl poweroff;; "🔄 Reboot") systemctl reboot;; esac'
+n ~/.local/share/applications/rofi-shutdown.desktop
+n ~/.config/rofi/power-menu.sh
+./power-menu.sh
+cd ~/.config/rofi/
+./power-menu.sh
+n power-menu.sh
+./power-menu.sh
+n power-menu.sh
+./power-menu.sh
+n power-menu.sh
+./power-menu.sh
+rofi-theme-selector
+rofi
+rofi -show drun
+rofi show drun
+ls
+n config.rasi
+cd colors/
+ls
+cd
+n devices/keybinds.kdl
+exit
+cd ~/.config/niri
+ls
+n rules/lrules.kdl
+n rules/wrules.kdl
+n config.kdl
+wl-paste 
+cliphist
+cliphist list
+cliphist list | rofi -dmenu -display-columns 2
+cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy
+cliphist list | rofi -dmenu -display-columns 1 | cliphist decode | wl-copy
+cliphist list | rofi -dmenu -display-columns -1 | cliphist decode | wl-copy
+cliphist list | rofi -dmenu | cliphist decode | wl-copy
+sudo shutdown now
+tmux ls
+ls
+cd shared/
+ls
+cd ~/.config/mango/
+cd ~/.config/rofi/
+ls
+n power-menu.sh
+chmod +x power-menu.sh
+./power-menu.sh
+cd
+ls | grep shared
+cp shared ~/.config/rofi
+cp shared ~/.config/rofi --recursive
+ls | grep shared
+cd ~/.config/rofi/
+ls
+./power-menu.sh
+n power-menu.sh
+./power-menu.sh
+n power-menu.sh
+./power-menu.sh
+n power-menu.sh
+./power-menu.sh
+n power-menu.sh
+swaylock
+i swaylock-effects-improved
+cd ~/.config
+mkdir swaylock
+n config
+swaylock --screenshots \<\n>		--ignore-empty-password \<\n>		--daemonize \<\n>		--indicator-caps-lock \<\n>		--indicator \<\n>		--clock \<\n>		--timestr "󰥔 %Hh %Mm %Ss"\<\n>		--datestr "󰃭 %b-%d-%Y" \<\n>		--show-failed-attempts \<\n>		--indicator-idle-visible
+bash
+ls
+cd swaylock/
+ls
+n config
+ls
+swaylock
+bash
+swaylock
+n swaylock.sh
+chmod +x swaylock.sh
+./swaylock.sh
+n swaylock.sh
+./swaylock.sh
+n swaylock.sh
+./swaylock.sh
+n swaylock.sh
+./swaylock.sh
+n swaylock.sh
+./swaylock.sh
+ls
+rm config
+ls
+./swaylock.sh
+cd ~/.config/swaylock/
+ls
+./swaylock.sh
+n swaylock.sh
+./swaylock.sh
+n swaylock.sh
+./swaylock.sh
+n swaylock.sh
+./swaylock.sh
+n swaylock.sh
+./swaylock.sh
+ls
+cd ~/.config/rofi
+ls
+n power-menu.sh
+./power-menu.sh
+mmsg -g layout
+mmsg -g
+./apps/nekoray/nekobox &
+cd ~/.config/niri
+ls
+n devices/keybinds.kdl
+fetchit 
+tmux a
+cd ~/.config/mango/
+ls
+cd ~/.config/mango/
+ls
+cd ~/.config/mango/
+s localsend
+i localsend
+n config.conf
+tmux a
+cd lrng/
+ls
+cd casino/
+ls
+cargo run
+~/claude.sh
+cd lrng/casino/
+ls
+cd src/
+ls
+ды
+ls
+cd lrng/tasklist/
+cargo run
+n main.rs
+cd ..
+ls
+cd ..
+ls
+cd tasklist/
+ls
+cd src/
+ls
+cd rustlings/
+ls
+cargo run
+cd rustlings/
+ls
+cd exercises/03_if/
+n if2
+n if2.rs
+cd ..
+cd quizzes/
+ls
+n README.md
+n quiz1.rs
+cd ..
+ls
+cd 04_primitive_types/
+n primitive_types1.rs
+n primitive_types3.rs
+cd ..
+cd 05_vecs/
+cd backup/crosshair/
+./apps/nekoray/nekobox &
+ls
+cd Videos/
+cd ..
+cd repos/VindexOS/
+ls
+git status
+git add .
+git commit -m "no feat today"
+git push
+ды
+ls
+n .gitignore
+mkdir userspace
+cd userspace/
+ls
+mkdir configs
+cd configs/
+cd ~/.config
+ls
+cp ~/.config/nvim nvim/
+cp ~/.config/nvim nvim
+cp ~/.config/nvim nvim --recursive
+ls
+ls nvim
+cd nvim
+rm screenshot.png
+ls
+tree
+n
+rm README.md
+cd ..
+ls
+cd ..
+ga
+git add .
+ga
+cd userspace/configs/
+ls
+cd nvim
+ls
+ls -a
+rm -rf .git/
+cd ..
+git status
+git add .
+git commit -m "added nvim config"
+git push
+tree
+git status
+cd userspace/configs/
+git status
+git add .
+ls
+cd nvim
+ls
+git add .
+ls -la
+cd ..
+ls -la
+cd ..
+ls
+cd ..
+ls
+git status
+git add .
+git commit -m "added nvim config"
+git push
+ls
+cd userspace/configs/
+ls
+cp ~/.config/mango/ mango --recursive
+ls
+cd ..
+ls
+gs
+git add .
+git commit -m "added mangowm config"
+git push
+n plz.pt
+n plz.py
+python plz.py
+n plz.py
+pi manim
+python plz.py
+manim -pql plz.py PenisGraph
+python manim -pql plz.py PenisGraph
+manim3 -pql plz.py PenisGraph
+/bin/python /home/sirex/plz.py
+pip uninstall manim
+pip uninstall manim --break-system-packages
+pi manim
+/bin/python /home/sirex/plz.py
+ls
+ls userspace/configs/
+cd userspace/configs/
+cp ~/.config/alacritty/ alacritty  --recursive
