@@ -71,12 +71,12 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
             Action::Stay
         }
 
-        KeyCode::Char('c') => {
-            if config.wifi_ssid.is_some() {
-                config.wifi_pass.clear();
-            }
-            Action::Stay
-        }
+        // KeyCode::Char('c') => {
+        //     if config.wifi_ssid.is_some() {
+        //         config.wifi_pass.clear();
+        //     }
+        //     Action::Stay
+        // }
 
         KeyCode::Char(c) => {
             if config.wifi_ssid.is_some() {
