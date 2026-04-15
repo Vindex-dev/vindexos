@@ -117,17 +117,22 @@ chroot("systemctl enable NetworkManager")
 if WIFI_SSID:
     progress(78, f"Configuring WiFi {WIFI_SSID}...")
     run(f"mkdir -p {MOUNT}/etc/NetworkManager/system-connections")
+    if WIFI_PASS:
+        security_section = f"""
+[wifi-security]
+key-mgmt=wpa-psk
+psk={WIFI_PASS}
+"""
+    else:
+        security_section = ""
+
     nm_profile = f"""[connection]
 id={WIFI_SSID}
 type=wifi
 
 [wifi]
 ssid={WIFI_SSID}
-
-[wifi-security]
-key-mgmt=wpa-psk
-psk={WIFI_PASS}
-
+{security_section}
 [ipv4]
 method=auto
 
