@@ -1,6 +1,8 @@
+#!/bin/bash
 set -e
 
-USER_NAME=$(logname 2>/dev/null || echo "$SUDO_USER")
+# Detect the non-root user created during install
+USER_NAME=$(getent passwd | awk -F: '$3 >= 1000 && $3 < 65534 {print $1; exit}')
 HOME_DIR="/home/$USER_NAME"
 
 pacman -Sy --noconfirm reflector
@@ -40,18 +42,19 @@ pacman -Syu --noconfirm \
     mangowm alacritty nushell neovim tmux \
     mpd firefox rofi bash nemo btop \
     cargo rustup python cmake mpv \
-    grim slurp qview nvtop \
+    grim git slurp qview nvtop \
     pipewire pipewire-pulse wireplumber \
     xdg-user-dirs ttf-jetbrains-mono-nerd \
-    noto-fonts noto-fonts-emoji
+    noto-fonts noto-fonts-emoji stow
 
 chsh -s /usr/bin/nu "$USER_NAME"
 
-cp -r userspace/configs/alacritty "$HOME_DIR/.config/"
-cp -r userspace/configs/nvim      "$HOME_DIR/.config/"
-cp -r userspace/configs/nushell   "$HOME_DIR/.config/"
-cp -r userspace/configs/mango     "$HOME_DIR/.config/"
-chown -R "$USER_NAME:$USER_NAME" "$HOME_DIR/.config"
+sudo -u "$USER_NAME" bash -c "
+    cd $HOME_DIR
+    git clone https://github.com/S1rEx1/dotfiles .dotfiles
+    cd .dotfiles
+    stow .
+"
 
 sed -i 's/^timeout.*/timeout 0/' /boot/loader/loader.conf
 

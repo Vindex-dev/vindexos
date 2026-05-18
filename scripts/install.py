@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import json
 import subprocess
 import sys
@@ -31,6 +30,7 @@ ROOT_DISK  = cfg["root_disk"]
 HOME_DISK  = cfg.get("home_disk")
 WIFI_SSID  = cfg.get("wifi_ssid")
 WIFI_PASS  = cfg.get("wifi_pass", "")
+KEYBOARD   = cfg.get("keyboard", "us")
 
 def part(disk, n):
     if "nvme" in disk or "mmcblk" in disk:
@@ -52,7 +52,7 @@ def detect_firmware():
     try:
         vendor = open("/sys/class/dmi/id/sys_vendor").read().strip().lower()
         if any(v in vendor for v in ["virtualbox", "qemu", "vmware", "innotek"]):
-            return ""
+            return "linux-firmware"
     except:
         pass
     return "linux-firmware"
@@ -63,6 +63,10 @@ try:
 except subprocess.CalledProcessError:
     print("ERROR:No internet connection", flush=True)
     sys.exit(1)
+
+progress(8, "Updating mirrors with reflector...")
+run("pacman -Sy --noconfirm reflector 2>/dev/null || true")
+run("reflector --latest 20 --sort rate --save /etc/pacman.d/mirrorlist 2>/dev/null || true")
 
 progress(10, f"Partitioning /dev/{ROOT_DISK}...")
 run(f"parted /dev/{ROOT_DISK} --script mklabel gpt")
@@ -110,6 +114,9 @@ run(f"echo 'LANG={locale_line}' > {MOUNT}/etc/locale.conf")
 
 progress(70, "Setting hostname...")
 run(f"echo '{HOSTNAME}' > {MOUNT}/etc/hostname")
+
+progress(72, f"Setting keyboard layout {KEYBOARD}...")
+run(f"echo 'KEYMAP={KEYBOARD}' > {MOUNT}/etc/vconsole.conf")
 
 progress(75, "Enabling NetworkManager...")
 chroot("systemctl enable NetworkManager")
@@ -171,7 +178,13 @@ options root=UUID={root_uuid} rw
 with open(f"{MOUNT}/boot/loader/entries/arch.conf", "w") as f:
     f.write(entry_conf)
 
-progress(95, "Unmounting...")
+progress(95, "Running post-install setup...")
+import shutil, os
+shutil.copy("scripts/post_install.sh", f"{MOUNT}/root/post_install.sh")
+run(f"chmod +x {MOUNT}/root/post_install.sh")
+run(f"arch-chroot {MOUNT} /bin/bash /root/post_install.sh")
+
+progress(98, "Unmounting...")
 run(f"umount -R {MOUNT}")
 
 progress(100, "Installation complete! You can reboot now.")

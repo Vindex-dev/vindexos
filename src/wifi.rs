@@ -67,6 +67,20 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
         KeyCode::Enter => {
             if let Some(ssid) = config.wifi_networks.get(config.wifi_cursor) {
                 config.wifi_ssid = Some(ssid.clone());
+                // Attempt to connect in live environment
+                let ssid_clone = ssid.clone();
+                let pass_clone = config.wifi_pass.clone();
+                std::thread::spawn(move || {
+                    if pass_clone.is_empty() {
+                        let _ = std::process::Command::new("iwctl")
+                            .args(["station", "wlan0", "connect", &ssid_clone])
+                            .output();
+                    } else {
+                        let _ = std::process::Command::new("iwctl")
+                            .args(["--passphrase", &pass_clone, "station", "wlan0", "connect", &ssid_clone])
+                            .output();
+                    }
+                });
             }
             Action::Stay
         }
