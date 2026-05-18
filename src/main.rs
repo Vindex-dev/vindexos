@@ -5,6 +5,7 @@ mod wifi;
 mod timezones;
 mod disk_menu;
 mod keyboard;
+mod keymap;
 mod installing;
 
 use config::Config;
@@ -15,6 +16,7 @@ use wifi::{draw as draw_wifi, handle_input as handle_wifi_input};
 use timezones::{draw as draw_tz, handle_input as handle_tz_input};
 use disk_menu::{draw as draw_disk, handle_input as handle_disk_input};
 use keyboard::{draw as draw_kb, handle_input as handle_kb_input};
+use keymap::{draw as draw_keymap, handle_input as handle_keymap_input};
 use installing::{draw as draw_install, handle_input as handle_install_input, InstallState};
 
 use crossterm::{
@@ -48,6 +50,7 @@ fn main() -> io::Result<()> {
                 Screen::TimezoneMenu => draw_tz(frame, &config),
                 Screen::DiskMenu => draw_disk(frame, &config),
                 Screen::KeyboardMenu => draw_kb(frame, &config),
+                Screen::KeymapMenu => draw_keymap(frame, &config),
                 Screen::Installing => draw_install(frame, &install_state),
             }
         })?;
@@ -60,6 +63,7 @@ fn main() -> io::Result<()> {
                     Screen::TimezoneMenu => handle_tz_input(key.code, &mut config),
                     Screen::DiskMenu => handle_disk_input(key.code, &mut config),
                     Screen::KeyboardMenu => handle_kb_input(key.code, &mut config),
+                    Screen::KeymapMenu => handle_keymap_input(key.code, &mut config),
                     Screen::Installing => handle_install_input(key.code, &install_state),
                 };
 

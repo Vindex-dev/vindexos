@@ -26,9 +26,12 @@ pub struct Config {
 
     pub locale: Option<String>,
     pub locale2: Option<String>,
+    pub keyboard: Option<String>,
     #[serde(skip)] pub kb_query: String,
     #[serde(skip)] pub kb_cursor: usize,
     #[serde(skip)] pub kb_picking_second: bool,
+    #[serde(skip)] pub keymap_query: String,
+    #[serde(skip)] pub keymap_cursor: usize,
 }
 
 impl Config {
@@ -52,9 +55,12 @@ impl Config {
             home_disk: None,
             locale: None,
             locale2: None,
+            keyboard: None,
             kb_query: String::new(),
             kb_cursor: 0,
             kb_picking_second: false,
+            keymap_query: String::new(),
+            keymap_cursor: 0,
         }
     }
     pub fn refresh_networks(&mut self) {
