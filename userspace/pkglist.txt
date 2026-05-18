@@ -1,0 +1,6 @@
+stow
+nvim
+mango
+oxwm-git
+waybar
+cargo
