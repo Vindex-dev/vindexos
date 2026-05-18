@@ -30,7 +30,6 @@ ROOT_DISK  = cfg["root_disk"]
 HOME_DISK  = cfg.get("home_disk")
 WIFI_SSID  = cfg.get("wifi_ssid")
 WIFI_PASS  = cfg.get("wifi_pass", "")
-KEYBOARD   = cfg.get("keyboard", "us")
 
 def part(disk, n):
     if "nvme" in disk or "mmcblk" in disk:
@@ -114,9 +113,6 @@ run(f"echo 'LANG={locale_line}' > {MOUNT}/etc/locale.conf")
 
 progress(70, "Setting hostname...")
 run(f"echo '{HOSTNAME}' > {MOUNT}/etc/hostname")
-
-progress(72, f"Setting keyboard layout {KEYBOARD}...")
-run(f"echo 'KEYMAP={KEYBOARD}' > {MOUNT}/etc/vconsole.conf")
 
 progress(75, "Enabling NetworkManager...")
 chroot("systemctl enable NetworkManager")

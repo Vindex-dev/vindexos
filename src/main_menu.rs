@@ -8,7 +8,7 @@ use crate::screen::{Action, Screen};
 
 pub fn draw(frame: &mut Frame<'_>, config: &Config) {
     let display = format!(
-        "{}Username: {}\n{}Hostname: {}\n{}Password: {}\n{}Confirm your password{}: {}\n{}WiFi\n{}Timezone\n{}Locale\n{}Keyboard Layout\n{}Disk partitioning\n{}Install",
+        "{}Username: {}\n{}Hostname: {}\n{}Password: {}\n{}Confirm your password{}: {}\n{}WiFi\n{}Timezone\n{}Locale\n{}Disk partitioning\n{}Install",
         marker(config.main_cursor == 0), &config.username,
         marker(config.main_cursor == 1), &config.hostname,
         marker(config.main_cursor == 2), &"*".repeat(config.password.len()),
@@ -20,7 +20,6 @@ pub fn draw(frame: &mut Frame<'_>, config: &Config) {
         marker(config.main_cursor == 6),
         marker(config.main_cursor == 7),
         marker(config.main_cursor == 8),
-        marker(config.main_cursor == 9),
     );
 
     let paragraph = Paragraph::new(display)
@@ -35,7 +34,7 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
         KeyCode::Esc => Action::Exit,
 
         KeyCode::Down => {
-            if config.main_cursor < 9 {
+            if config.main_cursor < 8 {
                 config.main_cursor += 1;
             } else {
                 config.main_cursor = 0;
@@ -46,7 +45,7 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
             if config.main_cursor > 0 {
                 config.main_cursor -= 1;
             } else {
-                config.main_cursor = 9;
+                config.main_cursor = 8;
             }
             Action::Stay
         }
@@ -78,9 +77,8 @@ pub fn handle_input(key: KeyCode, config: &mut Config) -> Action {
                 4 => Action::GoTo(Screen::WifiMenu),
                 5 => Action::GoTo(Screen::TimezoneMenu),
                 6 => Action::GoTo(Screen::KeyboardMenu),
-                7 => Action::GoTo(Screen::KeymapMenu),
-                8 => Action::GoTo(Screen::DiskMenu),
-                9 => {
+                7 => Action::GoTo(Screen::DiskMenu),
+                8 => {
                     if config.password == config.password_conf && config.root_disk != None && config.username != ""
                     && config.hostname != "" && config.timezone != None{
                         Action::Install
