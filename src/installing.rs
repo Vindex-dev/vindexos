@@ -58,6 +58,17 @@ impl InstallState {
                 }
             };
 
+            // Read stderr in a separate thread
+            if let Some(stderr) = child.stderr.take() {
+                let tx2 = tx.clone();
+                thread::spawn(move || {
+                    let reader = BufReader::new(stderr);
+                    for line in reader.lines().flatten() {
+                        let _ = tx2.send(InstallMessage::Log(format!("[stderr] {}", line)));
+                    }
+                });
+            }
+
             if let Some(stdout) = child.stdout.take() {
                 let reader = BufReader::new(stdout);
                 for line in reader.lines().flatten() {

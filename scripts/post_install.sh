@@ -27,8 +27,9 @@ if ! command -v yay &>/dev/null; then
         cd /tmp
         git clone https://aur.archlinux.org/yay-bin.git
         cd yay-bin
-        makepkg -si --noconfirm
+        makepkg --noconfirm
     "
+    pacman -U --noconfirm /tmp/yay-bin/yay-bin-*.pkg.tar.zst
 fi
 
 mkdir -p /etc/systemd/system/getty@tty1.service.d

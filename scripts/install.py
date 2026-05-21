@@ -82,7 +82,8 @@ if HOME_DISK and HOME_DISK != ROOT_DISK:
     run(f"mkfs.ext4 -F /dev/{HOME_DISK}")
 
 progress(25, "Mounting partitions...")
-run(f"mount {part(ROOT_DISK, 2)} {MOUNT}")
+run(f"umount -R {MOUNT} 2>/dev/null || true")
+run(f"mount -t ext4 {part(ROOT_DISK, 2)} {MOUNT}")
 run(f"mount --mkdir {part(ROOT_DISK, 1)} {MOUNT}/boot")
 
 if HOME_DISK and HOME_DISK != ROOT_DISK:
