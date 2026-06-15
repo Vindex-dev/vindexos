@@ -1,0 +1,13 @@
+[Unit]
+Description=VindexOS First Boot Setup
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=!/var/lib/vindexos/firstboot-done
+
+[Service]
+Type=oneshot
+ExecStart=/root/firstboot.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

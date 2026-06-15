@@ -65,7 +65,7 @@ except subprocess.CalledProcessError:
 
 progress(8, "Updating mirrors with reflector...")
 run("pacman -Sy --noconfirm reflector 2>/dev/null || true")
-run("reflector --latest 20 --sort rate --save /etc/pacman.d/mirrorlist 2>/dev/null || true")
+run("reflector --latest 20 --sort rate --download-timeout 5 --protocol https --save /etc/pacman.d/mirrorlist 2>/dev/null || true")
 
 progress(10, f"Partitioning /dev/{ROOT_DISK}...")
 run(f"parted /dev/{ROOT_DISK} --script mklabel gpt")
@@ -175,11 +175,14 @@ options root=UUID={root_uuid} rw
 with open(f"{MOUNT}/boot/loader/entries/arch.conf", "w") as f:
     f.write(entry_conf)
 
-progress(95, "Running post-install setup...")
+progress(95, "Setting up first boot script...")
 import shutil, os
-shutil.copy("scripts/post_install.sh", f"{MOUNT}/root/post_install.sh")
-run(f"chmod +x {MOUNT}/root/post_install.sh")
-run(f"arch-chroot {MOUNT} /bin/bash /root/post_install.sh")
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+shutil.copy(f"{SCRIPT_DIR}/firstboot.sh", f"{MOUNT}/root/firstboot.sh")
+run(f"chmod +x {MOUNT}/root/firstboot.sh")
+shutil.copy(f"{SCRIPT_DIR}/firstboot.service", f"{MOUNT}/etc/systemd/system/firstboot.service")
+
+chroot("systemctl enable firstboot.service")
 
 progress(98, "Unmounting...")
 run(f"umount -R {MOUNT}")

@@ -8,6 +8,10 @@ if [ -z "$USER_NAME" ]; then
 fi
 HOME_DIR="/home/$USER_NAME"
 
+# Mark as done to prevent re-run
+mkdir -p /var/lib/vindexos
+touch /var/lib/vindexos/firstboot-done
+
 pacman -Sy --noconfirm reflector
 reflector --latest 20 --sort rate --save /etc/pacman.d/mirrorlist
 
@@ -62,4 +66,8 @@ sudo -u "$USER_NAME" bash -c "
 
 sed -i 's/^timeout.*/timeout 0/' /boot/loader/loader.conf
 
+# Disable this service after successful run
+systemctl disable firstboot.service
+
 echo "Done. Reboot to apply."
+reboot
